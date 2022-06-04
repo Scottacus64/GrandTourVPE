@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Display
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"Variable":{"Id":"b9e26f92-7332","Name":"score","Type":"Integer","StringDefaultValue":"","IntegerDefaultValue":0,"FloatDefaultValue":0.0,"BooleanDefaultValue":false},"coroutine":false,"defaultValues":{},"position":{"x":-465.0,"y":-184.0},"guid":"75a8eeb6-8504-4ec6-8574-39ad79ca75ac","$version":"A","$type":"VisualPinball.Unity.VisualScripting.PlayerVariableChangedEventUnit","$id":"9"},{"Display":{"Id":"segmentDisplay","Width":5,"Height":1,"SupportedFormats":["Segment","Numeric"]},"defaultValues":{},"position":{"x":-142.0,"y":-185.0},"guid":"7c9283aa-e2a7-4017-8e41-ed2c91eaee2c","$version":"A","$type":"VisualPinball.Unity.VisualScripting.UpdateDisplayUnit","$id":"12"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"12"},"destinationKey":"InputTrigger","guid":"84af36a2-8737-4884-990a-e80f64a09e8f","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"9"},"sourceKey":"NewValue","destinationUnit":{"$ref":"12"},"destinationKey":"NumericInput","guid":"3e6210e1-8f32-4116-87c9-f11d5ca77d14","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []

@@ -656,7 +656,7 @@ PrefabInstance:
     - target: {fileID: 7011704082636338910, guid: 7eab5b5aa900f0c4c992e969f231271f,
         type: 3}
       propertyPath: m_RootOrder
-      value: 68
+      value: 67
       objectReference: {fileID: 0}
     - target: {fileID: 7011704082636338910, guid: 7eab5b5aa900f0c4c992e969f231271f,
         type: 3}
@@ -3241,7 +3241,7 @@ PrefabInstance:
     - target: {fileID: 7011704082636338910, guid: 7eab5b5aa900f0c4c992e969f231271f,
         type: 3}
       propertyPath: m_RootOrder
-      value: 70
+      value: 69
       objectReference: {fileID: 0}
     - target: {fileID: 7011704082636338910, guid: 7eab5b5aa900f0c4c992e969f231271f,
         type: 3}
@@ -4511,6 +4511,18 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &267465566 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6337435363468084629, guid: 2300ac1fd0949c943a1b1bb455ab43f3,
+    type: 3}
+  m_PrefabInstance: {fileID: 205749784}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 267465558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 064785265e73edf499c963876c56ebac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &277431628 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5926445367393707725, guid: 7eab5b5aa900f0c4c992e969f231271f,
@@ -6760,6 +6772,18 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &404961095 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6337435363468084629, guid: 2300ac1fd0949c943a1b1bb455ab43f3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1991578434}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 404961087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 064785265e73edf499c963876c56ebac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!43 &405405966
 Mesh:
   m_ObjectHideFlags: 0
@@ -8480,6 +8504,7 @@ Transform:
   - {fileID: 796417667}
   - {fileID: 1046367784}
   - {fileID: 894603441}
+  - {fileID: 1609371822}
   m_Father: {fileID: 197467596}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -14180,6 +14205,18 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &796417674 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6337435363468084629, guid: 2300ac1fd0949c943a1b1bb455ab43f3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1351952400}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 796417666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 064785265e73edf499c963876c56ebac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &800503936
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16357,7 +16394,7 @@ PrefabInstance:
     - target: {fileID: 7011704082636338910, guid: 7eab5b5aa900f0c4c992e969f231271f,
         type: 3}
       propertyPath: m_RootOrder
-      value: 71
+      value: 70
       objectReference: {fileID: 0}
     - target: {fileID: 7011704082636338910, guid: 7eab5b5aa900f0c4c992e969f231271f,
         type: 3}
@@ -17481,6 +17518,18 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &1046367791 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6337435363468084629, guid: 2300ac1fd0949c943a1b1bb455ab43f3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1853943052}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1046367783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 064785265e73edf499c963876c56ebac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1046937007
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19584,7 +19633,7 @@ PrefabInstance:
     - target: {fileID: 7011704082636338910, guid: 7eab5b5aa900f0c4c992e969f231271f,
         type: 3}
       propertyPath: m_RootOrder
-      value: 67
+      value: 66
       objectReference: {fileID: 0}
     - target: {fileID: 7011704082636338910, guid: 7eab5b5aa900f0c4c992e969f231271f,
         type: 3}
@@ -20737,7 +20786,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 2098111023}
+    m_TransformParent: {fileID: 523699709}
     m_Modifications:
     - target: {fileID: -5869360218614887998, guid: 7eab5b5aa900f0c4c992e969f231271f,
         type: 3}
@@ -20782,7 +20831,7 @@ PrefabInstance:
     - target: {fileID: 7011704082636338910, guid: 7eab5b5aa900f0c4c992e969f231271f,
         type: 3}
       propertyPath: m_RootOrder
-      value: 66
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7011704082636338910, guid: 7eab5b5aa900f0c4c992e969f231271f,
         type: 3}
@@ -20792,22 +20841,22 @@ PrefabInstance:
     - target: {fileID: 7011704082636338910, guid: 7eab5b5aa900f0c4c992e969f231271f,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 185.276
+      value: 185.27602
       objectReference: {fileID: 0}
     - target: {fileID: 7011704082636338910, guid: 7eab5b5aa900f0c4c992e969f231271f,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 185.276
+      value: 185.27602
       objectReference: {fileID: 0}
     - target: {fileID: 7011704082636338910, guid: 7eab5b5aa900f0c4c992e969f231271f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.8728852
+      value: -1.8728944
       objectReference: {fileID: 0}
     - target: {fileID: 7011704082636338910, guid: 7eab5b5aa900f0c4c992e969f231271f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.8093276
+      value: -2.8093421
       objectReference: {fileID: 0}
     - target: {fileID: 7011704082636338910, guid: 7eab5b5aa900f0c4c992e969f231271f,
         type: 3}
@@ -20822,17 +20871,17 @@ PrefabInstance:
     - target: {fileID: 7011704082636338910, guid: 7eab5b5aa900f0c4c992e969f231271f,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7011704082636338910, guid: 7eab5b5aa900f0c4c992e969f231271f,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7011704082636338910, guid: 7eab5b5aa900f0c4c992e969f231271f,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7011704082636338910, guid: 7eab5b5aa900f0c4c992e969f231271f,
         type: 3}
@@ -26357,6 +26406,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &1609371825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1609371821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 064785265e73edf499c963876c56ebac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isLocked: 0
+  _editorLayer: 0
+  _editorLayerName: 
+  _editorLayerVisibility: 1
+  Position: {x: 0, y: 0}
+  Scale: 1
+  Rotation: 0
+  _surface: {fileID: 0}
+  _dragPoints: []
 --- !u!4 &1610612871 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3438007474298596154, guid: 4e62e9c16a549e149951f0c17edaa4a2,
@@ -38871,7 +38941,7 @@ PrefabInstance:
     - target: {fileID: 7011704082636338910, guid: 7eab5b5aa900f0c4c992e969f231271f,
         type: 3}
       propertyPath: m_RootOrder
-      value: 69
+      value: 68
       objectReference: {fileID: 0}
     - target: {fileID: 7011704082636338910, guid: 7eab5b5aa900f0c4c992e969f231271f,
         type: 3}
@@ -43827,7 +43897,6 @@ Transform:
   - {fileID: 887650149}
   - {fileID: 1076588934}
   - {fileID: 747773678}
-  - {fileID: 1609371822}
   - {fileID: 1522870581}
   - {fileID: 673168202}
   - {fileID: 635629542}
@@ -44630,6 +44699,41 @@ MonoBehaviour:
     ConstantHint: 0
     Name: s_bumper3
     Desc: ' bumper3'
+  - NormallyClosed: 0
+    IsPulseSwitch: 0
+    InputActionHint: 
+    InputMapHint: 
+    ConstantHint: 0
+    Name: s_upper_right_one
+    Desc: upper right one point rubber
+  - NormallyClosed: 0
+    IsPulseSwitch: 0
+    InputActionHint: 
+    InputMapHint: 
+    ConstantHint: 0
+    Name: s_mushroom1
+    Desc: mushroom1
+  - NormallyClosed: 0
+    IsPulseSwitch: 0
+    InputActionHint: 
+    InputMapHint: 
+    ConstantHint: 0
+    Name: s_mushroom2
+    Desc: mushroom2
+  - NormallyClosed: 0
+    IsPulseSwitch: 0
+    InputActionHint: 
+    InputMapHint: 
+    ConstantHint: 0
+    Name: s_mushroom3
+    Desc: mushroom3
+  - NormallyClosed: 0
+    IsPulseSwitch: 0
+    InputActionHint: 
+    InputMapHint: 
+    ConstantHint: 0
+    Name: s_mushroom4
+    Desc: mushroom4
   Coils:
   - IsLamp: 0
     IsUnused: 0
@@ -44656,6 +44760,30 @@ MonoBehaviour:
     Type: 0
     Name: l_inserts
     Desc: Inserts
+  - Channel: 0
+    FadingSteps: 0
+    Source: 0
+    Type: 0
+    Name: l_mushroom1
+    Desc: mushroom1
+  - Channel: 0
+    FadingSteps: 0
+    Source: 0
+    Type: 0
+    Name: l_mushroom2
+    Desc: mushroom2
+  - Channel: 0
+    FadingSteps: 0
+    Source: 0
+    Type: 0
+    Name: l_mushroom3
+    Desc: mushroom3
+  - Channel: 0
+    FadingSteps: 0
+    Source: 0
+    Type: 0
+    Name: l_mushroom4
+    Desc: mushroom4
   Wires: []
 --- !u!114 &2140023973
 MonoBehaviour:
@@ -45241,6 +45369,56 @@ MonoBehaviour:
           _device: {fileID: 1046937008}
           DeviceItem: socket_switch
           PulseDelay: 250
+        - Id: s_upper_right_one
+          IsNormallyClosed: 0
+          Description: upper right one point rubber
+          Source: 1
+          InputActionMap: 
+          InputAction: 
+          Constant: 0
+          _device: {fileID: 1609371825}
+          DeviceItem: trigger_switch
+          PulseDelay: 250
+        - Id: s_mushroom1
+          IsNormallyClosed: 0
+          Description: mushroom1
+          Source: 1
+          InputActionMap: 
+          InputAction: 
+          Constant: 0
+          _device: {fileID: 267465566}
+          DeviceItem: trigger_switch
+          PulseDelay: 250
+        - Id: s_mushroom2
+          IsNormallyClosed: 0
+          Description: mushroom1
+          Source: 1
+          InputActionMap: 
+          InputAction: 
+          Constant: 0
+          _device: {fileID: 796417674}
+          DeviceItem: trigger_switch
+          PulseDelay: 250
+        - Id: s_mushroom3
+          IsNormallyClosed: 0
+          Description: mushroom3
+          Source: 1
+          InputActionMap: 
+          InputAction: 
+          Constant: 0
+          _device: {fileID: 404961095}
+          DeviceItem: trigger_switch
+          PulseDelay: 250
+        - Id: s_mushroom4
+          IsNormallyClosed: 0
+          Description: mushroom4
+          Source: 1
+          InputActionMap: 
+          InputAction: 
+          Constant: 0
+          _device: {fileID: 1046367791}
+          DeviceItem: trigger_switch
+          PulseDelay: 250
         Coils:
         - Id: c_left_flipper
           Description: Left Flipper (Main)
@@ -45315,6 +45493,42 @@ MonoBehaviour:
           IsCoil: 0
           Description: 
           _device: {fileID: 504601074}
+          DeviceItem: 
+          Type: 0
+          Channel: 3
+        - Id: l_mushroom1
+          Source: 0
+          FadingSteps: 0
+          IsCoil: 0
+          Description: 
+          _device: {fileID: 385505183}
+          DeviceItem: 
+          Type: 0
+          Channel: 3
+        - Id: l_mushroom2
+          Source: 0
+          FadingSteps: 0
+          IsCoil: 0
+          Description: 
+          _device: {fileID: 1978239815}
+          DeviceItem: default_lamp
+          Type: 0
+          Channel: 3
+        - Id: l_mushroom3
+          Source: 0
+          FadingSteps: 0
+          IsCoil: 0
+          Description: 
+          _device: {fileID: 758529324}
+          DeviceItem: 
+          Type: 0
+          Channel: 3
+        - Id: l_mushroom4
+          Source: 0
+          FadingSteps: 0
+          IsCoil: 0
+          Description: 
+          _device: {fileID: 1371430176}
           DeviceItem: 
           Type: 0
           Channel: 3

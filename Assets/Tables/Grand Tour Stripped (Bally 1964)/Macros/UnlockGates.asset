@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: UnlockGates
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"inputCount":4,"coroutine":false,"defaultValues":{"0":{"$content":"l_mushroom1","$type":"System.String"},"1":{"$content":"l_mushroom2","$type":"System.String"},"2":{"$content":"l_mushroom3","$type":"System.String"},"3":{"$content":"l_mushroom4","$type":"System.String"}},"position":{"x":-476.0,"y":-168.0},"guid":"3b085d3a-8834-4d44-bffa-2eaa63037705","$version":"A","$type":"VisualPinball.Unity.VisualScripting.LampEventUnit","$id":"9"},{"Variable":null,"defaultValues":{},"position":{"x":-128.0,"y":-169.0},"guid":"61c43ef1-247a-4425-b6a8-6d80f7c79d98","$version":"A","$type":"VisualPinball.Unity.VisualScripting.IncreasePlayerVariableUnit","$id":"11"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"InputTrigger","guid":"7a5ef6db-c07a-4ad2-af52-f4d9f9791caf","$type":"Unity.VisualScripting.ControlConnection"}],"$version":"A"}}'
+    _objectReferences: []

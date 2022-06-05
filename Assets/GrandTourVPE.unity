@@ -10167,11 +10167,11 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 890120742}
+  - {fileID: 1629507310}
   - {fileID: 1020178710}
   - {fileID: 962811366}
   - {fileID: 2042283042}
-  - {fileID: 1629507310}
-  - {fileID: 890120742}
   m_Father: {fileID: 197467596}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -44633,14 +44633,7 @@ MonoBehaviour:
     FloatDefaultValue: 0
     BooleanDefaultValue: 0
   - Id: 59ab9cca-22d6
-    Name: unlockTourGate
-    Type: 1
-    StringDefaultValue: 
-    IntegerDefaultValue: 0
-    FloatDefaultValue: 0
-    BooleanDefaultValue: 0
-  - Id: 93025c4f-237e
-    Name: unlockFreeBallGate
+    Name: unlockGate
     Type: 1
     StringDefaultValue: 
     IntegerDefaultValue: 0
@@ -44651,6 +44644,8 @@ MonoBehaviour:
     Id: d6a1c788-6b97
   - Name: Add Score
     Id: 90058f42-7eac
+  - Name: mushroomHit
+    Id: 1112f28a-7769
   Displays:
   - Id: segmentDisplay
     Width: 5
@@ -44802,8 +44797,14 @@ MonoBehaviour:
     FadingSteps: 0
     Source: 0
     Type: 0
-    Name: l_mushroomCollection
-    Desc: all Mushrooms
+    Name: l_freeBallGate
+    Desc: Free Ball Gate Lamp
+  - Channel: 0
+    FadingSteps: 0
+    Source: 0
+    Type: 0
+    Name: l_tourGate
+    Desc: Tour Gate Lamp
   Wires: []
 --- !u!114 &2140023973
 MonoBehaviour:

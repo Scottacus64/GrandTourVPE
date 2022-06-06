@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: RubberBands
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"inputCount":5,"coroutine":false,"defaultValues":{"0":{"$content":"s_upper_right_one","$type":"System.String"},"1":{"$content":"s_lowerRightBandScore","$type":"System.String"},"2":{"$content":"s_lowerLeftBandScore","$type":"System.String"},"3":{"$content":"s_upperLeftBandScore","$type":"System.String"},"4":{"$content":"s_upperRightBandScore","$type":"System.String"}},"position":{"x":-360.0,"y":-243.0},"guid":"3a3f69e7-cfe9-43e3-9872-17549001dce5","$version":"A","$type":"VisualPinball.Unity.VisualScripting.SwitchEnabledEventUnit","$id":"9"},{"Variable":{"Id":"b9e26f92-7332","Name":"score","Type":"Integer","StringDefaultValue":"","IntegerDefaultValue":0,"FloatDefaultValue":0.0,"BooleanDefaultValue":false},"defaultValues":{"Value":{"$content":1,"$type":"System.Int32"}},"position":{"x":-26.0,"y":-243.0},"guid":"8e6a9657-621e-4e6e-aac9-90037b2ae834","$version":"A","$type":"VisualPinball.Unity.VisualScripting.IncreasePlayerVariableUnit","$id":"11"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"InputTrigger","guid":"faba483a-ecb6-4f9a-8b68-41952509beef","$type":"Unity.VisualScripting.ControlConnection"}],"$version":"A"}}'
+    _objectReferences: []

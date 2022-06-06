@@ -6247,12 +6247,12 @@ PrefabInstance:
     - target: {fileID: 529052273840286473, guid: 2300ac1fd0949c943a1b1bb455ab43f3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 718.8809
+      value: 702.45245
       objectReference: {fileID: 0}
     - target: {fileID: 529052273840286473, guid: 2300ac1fd0949c943a1b1bb455ab43f3,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 599.9613
+      value: 599.9614
       objectReference: {fileID: 0}
     - target: {fileID: 529052273840286473, guid: 2300ac1fd0949c943a1b1bb455ab43f3,
         type: 3}
@@ -6307,12 +6307,12 @@ PrefabInstance:
     - target: {fileID: 6337435363468084629, guid: 2300ac1fd0949c943a1b1bb455ab43f3,
         type: 3}
       propertyPath: Position.x
-      value: 718.8809
+      value: 702.45245
       objectReference: {fileID: 0}
     - target: {fileID: 6337435363468084629, guid: 2300ac1fd0949c943a1b1bb455ab43f3,
         type: 3}
       propertyPath: Position.y
-      value: 599.9613
+      value: 599.9614
       objectReference: {fileID: 0}
     - target: {fileID: 6337435363468084629, guid: 2300ac1fd0949c943a1b1bb455ab43f3,
         type: 3}
@@ -6332,42 +6332,62 @@ PrefabInstance:
     - target: {fileID: 6337435363468084629, guid: 2300ac1fd0949c943a1b1bb455ab43f3,
         type: 3}
       propertyPath: _dragPoints.Array.data[0].Center.X
-      value: 694.2153
+      value: 667.86395
       objectReference: {fileID: 0}
     - target: {fileID: 6337435363468084629, guid: 2300ac1fd0949c943a1b1bb455ab43f3,
         type: 3}
       propertyPath: _dragPoints.Array.data[0].Center.Y
-      value: 579.1367
+      value: 571.7062
+      objectReference: {fileID: 0}
+    - target: {fileID: 6337435363468084629, guid: 2300ac1fd0949c943a1b1bb455ab43f3,
+        type: 3}
+      propertyPath: _dragPoints.Array.data[0].Center.Z
+      value: -9.817203e-12
       objectReference: {fileID: 0}
     - target: {fileID: 6337435363468084629, guid: 2300ac1fd0949c943a1b1bb455ab43f3,
         type: 3}
       propertyPath: _dragPoints.Array.data[1].Center.X
-      value: 694.2153
+      value: 676.48615
       objectReference: {fileID: 0}
     - target: {fileID: 6337435363468084629, guid: 2300ac1fd0949c943a1b1bb455ab43f3,
         type: 3}
       propertyPath: _dragPoints.Array.data[1].Center.Y
-      value: 617.1585
+      value: 616.8102
+      objectReference: {fileID: 0}
+    - target: {fileID: 6337435363468084629, guid: 2300ac1fd0949c943a1b1bb455ab43f3,
+        type: 3}
+      propertyPath: _dragPoints.Array.data[1].Center.Z
+      value: -7.17546e-12
       objectReference: {fileID: 0}
     - target: {fileID: 6337435363468084629, guid: 2300ac1fd0949c943a1b1bb455ab43f3,
         type: 3}
       propertyPath: _dragPoints.Array.data[2].Center.X
-      value: 743.9736
+      value: 720.26355
       objectReference: {fileID: 0}
     - target: {fileID: 6337435363468084629, guid: 2300ac1fd0949c943a1b1bb455ab43f3,
         type: 3}
       propertyPath: _dragPoints.Array.data[2].Center.Y
-      value: 617.1585
+      value: 615.2076
+      objectReference: {fileID: 0}
+    - target: {fileID: 6337435363468084629, guid: 2300ac1fd0949c943a1b1bb455ab43f3,
+        type: 3}
+      propertyPath: _dragPoints.Array.data[2].Center.Z
+      value: -3.682082e-12
       objectReference: {fileID: 0}
     - target: {fileID: 6337435363468084629, guid: 2300ac1fd0949c943a1b1bb455ab43f3,
         type: 3}
       propertyPath: _dragPoints.Array.data[3].Center.X
-      value: 743.97363
+      value: 713.1805
       objectReference: {fileID: 0}
     - target: {fileID: 6337435363468084629, guid: 2300ac1fd0949c943a1b1bb455ab43f3,
         type: 3}
       propertyPath: _dragPoints.Array.data[3].Center.Y
-      value: 579.1367
+      value: 574.3513
+      objectReference: {fileID: 0}
+    - target: {fileID: 6337435363468084629, guid: 2300ac1fd0949c943a1b1bb455ab43f3,
+        type: 3}
+      propertyPath: _dragPoints.Array.data[3].Center.Z
+      value: -9.673094e-12
       objectReference: {fileID: 0}
     - target: {fileID: 6337435363468084629, guid: 2300ac1fd0949c943a1b1bb455ab43f3,
         type: 3}
@@ -8499,12 +8519,12 @@ PrefabInstance:
     - target: {fileID: 529052273840286473, guid: 2300ac1fd0949c943a1b1bb455ab43f3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 118.26696
+      value: 126.286835
       objectReference: {fileID: 0}
     - target: {fileID: 529052273840286473, guid: 2300ac1fd0949c943a1b1bb455ab43f3,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 608.39386
+      value: 608.394
       objectReference: {fileID: 0}
     - target: {fileID: 529052273840286473, guid: 2300ac1fd0949c943a1b1bb455ab43f3,
         type: 3}
@@ -8559,12 +8579,12 @@ PrefabInstance:
     - target: {fileID: 6337435363468084629, guid: 2300ac1fd0949c943a1b1bb455ab43f3,
         type: 3}
       propertyPath: Position.x
-      value: 118.26696
+      value: 126.286835
       objectReference: {fileID: 0}
     - target: {fileID: 6337435363468084629, guid: 2300ac1fd0949c943a1b1bb455ab43f3,
         type: 3}
       propertyPath: Position.y
-      value: 608.39386
+      value: 608.394
       objectReference: {fileID: 0}
     - target: {fileID: 6337435363468084629, guid: 2300ac1fd0949c943a1b1bb455ab43f3,
         type: 3}
@@ -8584,42 +8604,42 @@ PrefabInstance:
     - target: {fileID: 6337435363468084629, guid: 2300ac1fd0949c943a1b1bb455ab43f3,
         type: 3}
       propertyPath: _dragPoints.Array.data[0].Center.X
-      value: 93.60131
+      value: 101.621185
       objectReference: {fileID: 0}
     - target: {fileID: 6337435363468084629, guid: 2300ac1fd0949c943a1b1bb455ab43f3,
         type: 3}
       propertyPath: _dragPoints.Array.data[0].Center.Y
-      value: 587.5693
+      value: 587.5694
       objectReference: {fileID: 0}
     - target: {fileID: 6337435363468084629, guid: 2300ac1fd0949c943a1b1bb455ab43f3,
         type: 3}
       propertyPath: _dragPoints.Array.data[1].Center.X
-      value: 93.60131
+      value: 101.621185
       objectReference: {fileID: 0}
     - target: {fileID: 6337435363468084629, guid: 2300ac1fd0949c943a1b1bb455ab43f3,
         type: 3}
       propertyPath: _dragPoints.Array.data[1].Center.Y
-      value: 625.59106
+      value: 625.5912
       objectReference: {fileID: 0}
     - target: {fileID: 6337435363468084629, guid: 2300ac1fd0949c943a1b1bb455ab43f3,
         type: 3}
       propertyPath: _dragPoints.Array.data[2].Center.X
-      value: 143.35959
+      value: 151.37947
       objectReference: {fileID: 0}
     - target: {fileID: 6337435363468084629, guid: 2300ac1fd0949c943a1b1bb455ab43f3,
         type: 3}
       propertyPath: _dragPoints.Array.data[2].Center.Y
-      value: 625.59106
+      value: 625.5912
       objectReference: {fileID: 0}
     - target: {fileID: 6337435363468084629, guid: 2300ac1fd0949c943a1b1bb455ab43f3,
         type: 3}
       propertyPath: _dragPoints.Array.data[3].Center.X
-      value: 143.35965
+      value: 151.37953
       objectReference: {fileID: 0}
     - target: {fileID: 6337435363468084629, guid: 2300ac1fd0949c943a1b1bb455ab43f3,
         type: 3}
       propertyPath: _dragPoints.Array.data[3].Center.Y
-      value: 587.5693
+      value: 587.5694
       objectReference: {fileID: 0}
     - target: {fileID: 6337435363468084629, guid: 2300ac1fd0949c943a1b1bb455ab43f3,
         type: 3}
@@ -11627,6 +11647,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &635629549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 635629541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 064785265e73edf499c963876c56ebac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isLocked: 0
+  _editorLayer: 0
+  _editorLayerName: 
+  _editorLayerVisibility: 1
+  Position: {x: 0, y: 0}
+  Scale: 1
+  Rotation: 0
+  _surface: {fileID: 0}
+  _dragPoints: []
 --- !u!4 &640486742 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2649789736405374282, guid: 28e4ce2115e895249b03d093e232dbe9,
@@ -12926,6 +12967,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &673168209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 673168201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 064785265e73edf499c963876c56ebac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isLocked: 0
+  _editorLayer: 0
+  _editorLayerName: 
+  _editorLayerVisibility: 1
+  Position: {x: 0, y: 0}
+  Scale: 1
+  Rotation: 0
+  _surface: {fileID: 0}
+  _dragPoints: []
 --- !u!1 &678174074 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5926445367393707725, guid: 7eab5b5aa900f0c4c992e969f231271f,
@@ -14806,6 +14868,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &769346516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 769346508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 064785265e73edf499c963876c56ebac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isLocked: 0
+  _editorLayer: 0
+  _editorLayerName: 
+  _editorLayerVisibility: 1
+  Position: {x: 0, y: 0}
+  Scale: 1
+  Rotation: 0
+  _surface: {fileID: 0}
+  _dragPoints: []
 --- !u!1 &771681304 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8116499157636777247, guid: 2300ac1fd0949c943a1b1bb455ab43f3,
@@ -26823,6 +26906,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &1522870589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1522870580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 064785265e73edf499c963876c56ebac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isLocked: 0
+  _editorLayer: 0
+  _editorLayerName: 
+  _editorLayerVisibility: 1
+  Position: {x: 0, y: 0}
+  Scale: 1
+  Rotation: 0
+  _surface: {fileID: 0}
+  _dragPoints: []
 --- !u!1001 &1532210819
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -47178,6 +47282,34 @@ MonoBehaviour:
     ConstantHint: 0
     Name: s_rightButterfly
     Desc: right butterfly
+  - NormallyClosed: 0
+    IsPulseSwitch: 0
+    InputActionHint: 
+    InputMapHint: 
+    ConstantHint: 0
+    Name: s_lowerRightBandScore
+    Desc: right lower band
+  - NormallyClosed: 0
+    IsPulseSwitch: 0
+    InputActionHint: 
+    InputMapHint: 
+    ConstantHint: 0
+    Name: s_lowerLeftBandScore
+    Desc: right lower band
+  - NormallyClosed: 0
+    IsPulseSwitch: 0
+    InputActionHint: 
+    InputMapHint: 
+    ConstantHint: 0
+    Name: s_upperLeftBandScore
+    Desc: left upper band
+  - NormallyClosed: 0
+    IsPulseSwitch: 0
+    InputActionHint: 
+    InputMapHint: 
+    ConstantHint: 0
+    Name: s_upperRightBandScore
+    Desc: right upper band
   Coils:
   - IsLamp: 0
     IsUnused: 0
@@ -47969,6 +48101,46 @@ MonoBehaviour:
           InputAction: 
           Constant: 0
           _device: {fileID: 358203503}
+          DeviceItem: trigger_switch
+          PulseDelay: 250
+        - Id: s_upperLeftBandScore
+          IsNormallyClosed: 0
+          Description: upper left band score
+          Source: 1
+          InputActionMap: 
+          InputAction: 
+          Constant: 0
+          _device: {fileID: 673168209}
+          DeviceItem: trigger_switch
+          PulseDelay: 250
+        - Id: s_upperRightBandScore
+          IsNormallyClosed: 0
+          Description: upper right band score
+          Source: 1
+          InputActionMap: 
+          InputAction: 
+          Constant: 0
+          _device: {fileID: 635629549}
+          DeviceItem: trigger_switch
+          PulseDelay: 250
+        - Id: s_lowerLeftBandScore
+          IsNormallyClosed: 0
+          Description: lower left band score
+          Source: 1
+          InputActionMap: 
+          InputAction: 
+          Constant: 0
+          _device: {fileID: 1522870589}
+          DeviceItem: trigger_switch
+          PulseDelay: 250
+        - Id: s_lowerRightBandScore
+          IsNormallyClosed: 0
+          Description: lower right band score
+          Source: 1
+          InputActionMap: 
+          InputAction: 
+          Constant: 0
+          _device: {fileID: 769346516}
           DeviceItem: trigger_switch
           PulseDelay: 250
         Coils:

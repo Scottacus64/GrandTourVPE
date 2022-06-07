@@ -15,7 +15,7 @@ C:/VPE/GrandTourVPE
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51261
+63546
 Successfully changed project path to: C:/VPE/GrandTourVPE
 C:/VPE/GrandTourVPE
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/VPE/GrandTourVPE
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 208.50 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 191.52 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.0f1 (6eacc8284459)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Resources/UnitySubsystems
@@ -63,53 +63,53 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56296
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56044
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006447 seconds.
+Registered in 0.006140 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 182.26 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 179.99 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.733 seconds
+- Completed reload, in  0.684 seconds
 Domain Reload Profiling:
-	ReloadAssembly (734ms)
-		BeginReloadAssembly (68ms)
+	ReloadAssembly (685ms)
+		BeginReloadAssembly (62ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (557ms)
-			LoadAssemblies (66ms)
+		EndReloadAssembly (519ms)
+			LoadAssemblies (61ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (103ms)
+			SetupTypeCache (94ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (374ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (354ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (182ms)
+				RefreshPlugins (180ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (134ms)
-				ProcessInitializeOnLoadMethodAttributes (47ms)
+				ProcessInitializeOnLoadAttributes (127ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.043960 seconds.
+Registered in 0.034953 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\VPE\GrandTourVPE\Library\PackageCache\com.unity.visualscripting@1.7.7\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\VPE\GrandTourVPE\Library\PackageCache\com.unity.visualscripting@1.7.7\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 194.40 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 214.51 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-TypeManager.Initialize took: 269ms
+TypeManager.Initialize took: 294ms
 System.Exception: Error! Visual Scripting: couldn't find visual scripting package
   at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in C:\VPE\GrandTourVPE\Library\PackageCache\com.unity.visualscripting@1.7.7\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
   at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in C:\VPE\GrandTourVPE\Library\PackageCache\com.unity.visualscripting@1.7.7\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
@@ -128,43 +128,43 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.988 seconds
+- Completed reload, in  3.065 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2989ms)
-		BeginReloadAssembly (105ms)
+	ReloadAssembly (3065ms)
+		BeginReloadAssembly (113ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (2751ms)
-			LoadAssemblies (153ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (2809ms)
+			LoadAssemblies (140ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (520ms)
+			SetupTypeCache (543ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (99ms)
-			SetupLoadedEditorAssemblies (1930ms)
+			RebuildScriptCaches (108ms)
+			SetupLoadedEditorAssemblies (1965ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (194ms)
-				BeforeProcessingInitializeOnLoad (188ms)
-				ProcessInitializeOnLoadAttributes (1242ms)
-				ProcessInitializeOnLoadMethodAttributes (292ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				RefreshPlugins (215ms)
+				BeforeProcessingInitializeOnLoad (196ms)
+				ProcessInitializeOnLoadAttributes (1345ms)
+				ProcessInitializeOnLoadMethodAttributes (197ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 2.00 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 1.88 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 9076 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 152 unused Assets / (3.8 MB). Loaded Objects now: 9442.
-Memory consumption went from 388.8 MB to 385.0 MB.
-Total: 20.671200 ms (FindLiveObjects: 0.889900 ms CreateObjectMapping: 1.012900 ms MarkObjects: 17.976600 ms  DeleteObjects: 0.790100 ms)
+Memory consumption went from 388.8 MB to 385.1 MB.
+Total: 20.294100 ms (FindLiveObjects: 1.045100 ms CreateObjectMapping: 1.112000 ms MarkObjects: 16.822300 ms  DeleteObjects: 1.313400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:DOTSType/UnityEditor.NavMeshObstacleInspector: e09ab8310b8a0334e09ab8310b8a0334 -> 
@@ -2261,55 +2261,151 @@ AssetImportParameters requested are different than current active one (requested
   custom:DOTSType/UnityEditor.Snap.SnapSettingsWindow: 23aaf38655ec118d23aaf38655ec118d -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 130904.502036 seconds.
-  path: Assets/Tables/Grand Tour Stripped (Bally 1964)/Macros/Mushrooms.asset
-  artifactKey: Guid(337dc3668176efd43aa7c01ccc6da868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tables/Grand Tour Stripped (Bally 1964)/Macros/Mushrooms.asset using Guid(337dc3668176efd43aa7c01ccc6da868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9439d962301d5a4864e7647153138c08') in 0.118812 seconds 
+  Time since last request: 198562.981730 seconds.
+  path: Assets/Tables/Grand Tour Stripped (Bally 1964)/Macros/Slings.asset
+  artifactKey: Guid(52a1c778cc21bc44288a4155676ca4af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tables/Grand Tour Stripped (Bally 1964)/Macros/Slings.asset using Guid(52a1c778cc21bc44288a4155676ca4af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31f9aa34aa51e16e067a48ec33f7c644') in 0.105838 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 449.283664 seconds.
-  path: Assets/Tables/Grand Tour Stripped (Bally 1964)/Macros/WireRollovers.asset
-  artifactKey: Guid(71a08626fe7523241b102a8a2c916ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tables/Grand Tour Stripped (Bally 1964)/Macros/WireRollovers.asset using Guid(71a08626fe7523241b102a8a2c916ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4030c8901f0c26e88172a19304252cb5') in 0.006032 seconds 
+  Time since last request: 980.181950 seconds.
+  path: Assets/Tables/Grand Tour Stripped (Bally 1964)/Meshes/Playfield.fbx
+  artifactKey: Guid(f1107d34c49d05f4bb26410a3e5df70e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tables/Grand Tour Stripped (Bally 1964)/Meshes/Playfield.fbx using Guid(f1107d34c49d05f4bb26410a3e5df70e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68df1b19b6693b8ec69ea6c71e0b72da') in 1.115728 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 41.024664 seconds.
-  path: Assets/Tables/Grand Tour Stripped (Bally 1964)/Macros/WireRollovers.asset
-  artifactKey: Guid(71a08626fe7523241b102a8a2c916ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tables/Grand Tour Stripped (Bally 1964)/Macros/WireRollovers.asset using Guid(71a08626fe7523241b102a8a2c916ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f62f3ad42c0097c10ff7659d245994d') in 0.002733 seconds 
+  Time since last request: 4476.453405 seconds.
+  path: Assets/Tables/Grand Tour Stripped (Bally 1964)/Textures/GT pf.png
+  artifactKey: Guid(4eb138aea47ab17498878b8b89eda63f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tables/Grand Tour Stripped (Bally 1964)/Textures/GT pf.png using Guid(4eb138aea47ab17498878b8b89eda63f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1f7e1d2dd476ae083be690e8672832f') in 1.310242 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 85.923470 seconds.
-  path: Assets/Tables/Grand Tour Stripped (Bally 1964)/Macros/Mushrooms.asset
-  artifactKey: Guid(337dc3668176efd43aa7c01ccc6da868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tables/Grand Tour Stripped (Bally 1964)/Macros/Mushrooms.asset using Guid(337dc3668176efd43aa7c01ccc6da868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81949e757cd1cc9a5aa6af44885269bb') in 0.004792 seconds 
+  Time since last request: 0.002302 seconds.
+  path: Assets/GrandTourVPE/HDAdditionalLightData.png
+  artifactKey: Guid(eb80891c83a25674589ee6c22c6aed14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GrandTourVPE/HDAdditionalLightData.png using Guid(eb80891c83a25674589ee6c22c6aed14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f1d63c85e4c57f8fbb820085e34c69b') in 0.036589 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1695.793919 seconds.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Tables/Grand Tour Stripped (Bally 1964)/Textures/GTRoundel.png
+  artifactKey: Guid(6897fc83ccf4fda4bb623e37faded5c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tables/Grand Tour Stripped (Bally 1964)/Textures/GTRoundel.png using Guid(6897fc83ccf4fda4bb623e37faded5c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc7f39fe0bf46b7ffa62772469a92645') in 0.049045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Tables/Grand Tour Stripped (Bally 1964)/Meshes/grand tour_newpfmesh.obj
+  artifactKey: Guid(8fa4172ff18faeb41a57e0daf981e5dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tables/Grand Tour Stripped (Bally 1964)/Meshes/grand tour_newpfmesh.obj using Guid(8fa4172ff18faeb41a57e0daf981e5dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cae4fab4ead5aa171986ce6e208e477') in 0.446028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Tables/Grand Tour Stripped (Bally 1964)/Textures/ColorGradeLUT256x16_minordesat.png
+  artifactKey: Guid(68af9870111273441980133462c8dfe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tables/Grand Tour Stripped (Bally 1964)/Textures/ColorGradeLUT256x16_minordesat.png using Guid(68af9870111273441980133462c8dfe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2389bbdf5248279fa98d114f88ddf8ff') in 0.047996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/GrandTourGraph.asset
+  artifactKey: Guid(8b6cff48861df4442ab676f7ac40dd29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GrandTourGraph.asset using Guid(8b6cff48861df4442ab676f7ac40dd29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ef9c697fd12fb2e4997013688f8cdd3') in 0.919712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Tables/Grand Tour Stripped (Bally 1964)/Legacy Data.asset
+  artifactKey: Guid(2eaaabb674e44194fb05ba8b45460690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tables/Grand Tour Stripped (Bally 1964)/Legacy Data.asset using Guid(2eaaabb674e44194fb05ba8b45460690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1010e705f5fd1040ab9c10151d0345aa') in 6.355916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 71.394183 seconds.
+  path: Assets/Tables/Grand Tour Stripped (Bally 1964)/Meshes/playfield_off.fbx
+  artifactKey: Guid(ffef1f22ab66ea940a06e52d1cc5b6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tables/Grand Tour Stripped (Bally 1964)/Meshes/playfield_off.fbx using Guid(ffef1f22ab66ea940a06e52d1cc5b6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a64cd43e38bef40eee04217e135fbde') in 0.075196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Tables/Grand Tour Stripped (Bally 1964)/Meshes/rrubber.fbx
+  artifactKey: Guid(a2c88b618d65baa478abbad030bef27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tables/Grand Tour Stripped (Bally 1964)/Meshes/rrubber.fbx using Guid(a2c88b618d65baa478abbad030bef27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8bd9b044e3f1cae93d2bc554d2b6e54') in 0.064079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.180049 seconds.
+  path: Assets/Tables/Grand Tour Stripped (Bally 1964)/Meshes/rrubber2.fbx
+  artifactKey: Guid(e52328c3df42e6943b0428a9a89fdf2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tables/Grand Tour Stripped (Bally 1964)/Meshes/rrubber2.fbx using Guid(e52328c3df42e6943b0428a9a89fdf2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18632ac48c7fc29dc6b863942f9047d0') in 0.118285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Tables/Grand Tour Stripped (Bally 1964)/Meshes/rsling.fbx
+  artifactKey: Guid(a57784519c945394e90c13b5a9047d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tables/Grand Tour Stripped (Bally 1964)/Meshes/rsling.fbx using Guid(a57784519c945394e90c13b5a9047d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e1f60143e9507871b18379c76bc87ca') in 0.066426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Tables/Grand Tour Stripped (Bally 1964)/Meshes/rsling2.fbx
+  artifactKey: Guid(4c474867a52a49c41ab803310489d2d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tables/Grand Tour Stripped (Bally 1964)/Meshes/rsling2.fbx using Guid(4c474867a52a49c41ab803310489d2d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fe579bdf2bbf4230f9bbe19a8f4b3c2') in 0.086329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Tables/Grand Tour Stripped (Bally 1964)/Meshes/rrubber1.fbx
+  artifactKey: Guid(9e24100546cb8404b81b5606dffa906e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tables/Grand Tour Stripped (Bally 1964)/Meshes/rrubber1.fbx using Guid(9e24100546cb8404b81b5606dffa906e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4111439e0be3ec634bb4c38a9df5d9a') in 0.072794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.042541 seconds.
+  path: Assets/Tables/Grand Tour Stripped (Bally 1964)/Meshes/rsling3.fbx
+  artifactKey: Guid(f3df386a11fc6c74294ba1a7155a6424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tables/Grand Tour Stripped (Bally 1964)/Meshes/rsling3.fbx using Guid(f3df386a11fc6c74294ba1a7155a6424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e18ebafe398670b105c9a29236cbabc') in 0.063623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.753403 seconds.
+  path: Assets/Tables/Grand Tour Stripped (Bally 1964)/Meshes/SoundPoint12.fbx
+  artifactKey: Guid(fbcabfb2e24d9574fa1867ed17adb7ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tables/Grand Tour Stripped (Bally 1964)/Meshes/SoundPoint12.fbx using Guid(fbcabfb2e24d9574fa1867ed17adb7ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79a4dac6cb41195f8a6ac8db4cd07434') in 0.058838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.538145 seconds.
+  path: Assets/Tables/Grand Tour Stripped (Bally 1964)/Meshes/SoundPointScoreMotor.fbx
+  artifactKey: Guid(976581cb1ab9cad44bb1fde95a88eed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tables/Grand Tour Stripped (Bally 1964)/Meshes/SoundPointScoreMotor.fbx using Guid(976581cb1ab9cad44bb1fde95a88eed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8580b70aca211cd807b3fccd8bfcc06') in 0.138072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Tables/Grand Tour Stripped (Bally 1964)/Meshes/UpperRightBandScore.fbx
+  artifactKey: Guid(aa0ad2954d8468845a11bdf2a9ceddb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tables/Grand Tour Stripped (Bally 1964)/Meshes/UpperRightBandScore.fbx using Guid(aa0ad2954d8468845a11bdf2a9ceddb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3c893e59896d6becc29eaa0462a6f34') in 0.094426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Tables/Grand Tour Stripped (Bally 1964)/Meshes/UpperLeftBandScore.fbx
+  artifactKey: Guid(239031e2c32883343bc0a76ac2ba59e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tables/Grand Tour Stripped (Bally 1964)/Meshes/UpperLeftBandScore.fbx using Guid(239031e2c32883343bc0a76ac2ba59e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc26ec597e2bc036003317e24d50df1d') in 0.082521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Tables/Grand Tour Stripped (Bally 1964)/Meshes/upperRightOnePointScore.fbx
+  artifactKey: Guid(b66b1441d5f946841bd2a75f1b7c0b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tables/Grand Tour Stripped (Bally 1964)/Meshes/upperRightOnePointScore.fbx using Guid(b66b1441d5f946841bd2a75f1b7c0b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70b2821e3d55e801685f94882774087a') in 0.152704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.481329 seconds.
+  path: Assets/Tables/Grand Tour Stripped (Bally 1964)/Macros/Bumpers.asset
+  artifactKey: Guid(6de6867ecb546de4c90a4407505c7e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tables/Grand Tour Stripped (Bally 1964)/Macros/Bumpers.asset using Guid(6de6867ecb546de4c90a4407505c7e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a350ca286f127c30ba88493d36c886b') in 0.013184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
   path: Assets/Tables/Grand Tour Stripped (Bally 1964)/Macros/RubberBands.asset
   artifactKey: Guid(fb7db3bd0012e834fb9ad5c44166744e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tables/Grand Tour Stripped (Bally 1964)/Macros/RubberBands.asset using Guid(fb7db3bd0012e834fb9ad5c44166744e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3d4e87302ab4a2ab7e546469155c80b') in 0.007803 seconds 
+Start importing Assets/Tables/Grand Tour Stripped (Bally 1964)/Macros/RubberBands.asset using Guid(fb7db3bd0012e834fb9ad5c44166744e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '626dfbc0b14a29abaa0743b3db02f3e6') in 0.017288 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 53343.093624 seconds.
-  path: Assets/Tables/Grand Tour Stripped (Bally 1964)/Macros/Bumpers.asset
-  artifactKey: Guid(6de6867ecb546de4c90a4407505c7e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tables/Grand Tour Stripped (Bally 1964)/Macros/Bumpers.asset using Guid(6de6867ecb546de4c90a4407505c7e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c0ef7366970c377efd72a97729f46d3') in 0.067316 seconds 
+  Time since last request: 0.000113 seconds.
+  path: Assets/Tables/Grand Tour Stripped (Bally 1964)/Macros/Trough.asset
+  artifactKey: Guid(3a2b6323bda8cdb40bf1e692937382e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tables/Grand Tour Stripped (Bally 1964)/Macros/Trough.asset using Guid(3a2b6323bda8cdb40bf1e692937382e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04043236ad9ecfe87135d4a148713557') in 0.013916 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2724.975772 seconds.
-  path: Assets/Tables/Grand Tour Stripped (Bally 1964)/Macros/Mushrooms.asset
-  artifactKey: Guid(337dc3668176efd43aa7c01ccc6da868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tables/Grand Tour Stripped (Bally 1964)/Macros/Mushrooms.asset using Guid(337dc3668176efd43aa7c01ccc6da868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26643bd1bb4addd20bc2d823b7126cbd') in 0.017680 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 402.913853 seconds.
-  path: Assets/Tables/Grand Tour Stripped (Bally 1964)/Macros/Bumpers.asset
-  artifactKey: Guid(6de6867ecb546de4c90a4407505c7e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tables/Grand Tour Stripped (Bally 1964)/Macros/Bumpers.asset using Guid(6de6867ecb546de4c90a4407505c7e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '069b23d67d169b89f30c1c2dbe6c3a86') in 0.072584 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 405.019375 seconds.
-  path: Assets/Tables/Grand Tour Stripped (Bally 1964)/Macros/Bumpers.asset
-  artifactKey: Guid(6de6867ecb546de4c90a4407505c7e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tables/Grand Tour Stripped (Bally 1964)/Macros/Bumpers.asset using Guid(6de6867ecb546de4c90a4407505c7e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3255dcd9d4605c42b2deeb7fdc38aa8') in 0.007159 seconds 
+  Time since last request: 0.000135 seconds.
+  path: Assets/Tables/Grand Tour Stripped (Bally 1964)/Macros/UnlockGates.asset
+  artifactKey: Guid(b270ab1cf113588458cedf6e9ad10ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tables/Grand Tour Stripped (Bally 1964)/Macros/UnlockGates.asset using Guid(b270ab1cf113588458cedf6e9ad10ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b690a2a57a54a6498b9ccc1c773065c4') in 0.017705 seconds 

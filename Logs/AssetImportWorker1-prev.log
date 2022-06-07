@@ -15,7 +15,7 @@ C:/VPE/GrandTourVPE
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-51261
+63546
 Successfully changed project path to: C:/VPE/GrandTourVPE
 C:/VPE/GrandTourVPE
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/VPE/GrandTourVPE
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 199.34 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 200.24 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.0f1 (6eacc8284459)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Resources/UnitySubsystems
@@ -63,53 +63,53 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56768
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56248
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006302 seconds.
+Registered in 0.006295 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 182.16 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 180.65 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.734 seconds
+- Completed reload, in  0.677 seconds
 Domain Reload Profiling:
-	ReloadAssembly (734ms)
-		BeginReloadAssembly (66ms)
+	ReloadAssembly (678ms)
+		BeginReloadAssembly (63ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (561ms)
-			LoadAssemblies (64ms)
+		EndReloadAssembly (510ms)
+			LoadAssemblies (61ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (101ms)
+			SetupTypeCache (91ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (377ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (345ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (182ms)
+				RefreshPlugins (181ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (138ms)
-				ProcessInitializeOnLoadMethodAttributes (48ms)
+				ProcessInitializeOnLoadAttributes (118ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.038416 seconds.
+Registered in 0.034522 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\VPE\GrandTourVPE\Library\PackageCache\com.unity.visualscripting@1.7.7\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\VPE\GrandTourVPE\Library\PackageCache\com.unity.visualscripting@1.7.7\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 194.02 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 211.63 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-TypeManager.Initialize took: 263ms
+TypeManager.Initialize took: 294ms
 System.Exception: Error! Visual Scripting: couldn't find visual scripting package
   at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in C:\VPE\GrandTourVPE\Library\PackageCache\com.unity.visualscripting@1.7.7\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
   at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in C:\VPE\GrandTourVPE\Library\PackageCache\com.unity.visualscripting@1.7.7\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
@@ -128,43 +128,43 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.989 seconds
+- Completed reload, in  3.052 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2990ms)
-		BeginReloadAssembly (104ms)
+	ReloadAssembly (3052ms)
+		BeginReloadAssembly (113ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (2753ms)
-			LoadAssemblies (153ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (2801ms)
+			LoadAssemblies (139ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (517ms)
+			SetupTypeCache (545ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (101ms)
-			SetupLoadedEditorAssemblies (1931ms)
+			RebuildScriptCaches (112ms)
+			SetupLoadedEditorAssemblies (1955ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (194ms)
-				BeforeProcessingInitializeOnLoad (188ms)
-				ProcessInitializeOnLoadAttributes (1227ms)
-				ProcessInitializeOnLoadMethodAttributes (309ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				RefreshPlugins (212ms)
+				BeforeProcessingInitializeOnLoad (198ms)
+				ProcessInitializeOnLoadAttributes (1334ms)
+				ProcessInitializeOnLoadMethodAttributes (199ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 2.54 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 1.77 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 9076 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 152 unused Assets / (3.8 MB). Loaded Objects now: 9442.
-Memory consumption went from 388.8 MB to 385.0 MB.
-Total: 18.243900 ms (FindLiveObjects: 0.746900 ms CreateObjectMapping: 0.869500 ms MarkObjects: 15.915900 ms  DeleteObjects: 0.710400 ms)
+Memory consumption went from 388.8 MB to 385.1 MB.
+Total: 23.925000 ms (FindLiveObjects: 0.858400 ms CreateObjectMapping: 1.103700 ms MarkObjects: 21.075700 ms  DeleteObjects: 0.885900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:DOTSType/UnityEditor.NavMeshObstacleInspector: e09ab8310b8a0334e09ab8310b8a0334 -> 
@@ -2259,3 +2259,81 @@ AssetImportParameters requested are different than current active one (requested
   custom:DOTSType/Unity.Scenes.DisableLiveLink: acfec9bf12a4cae8acfec9bf12a4cae8 -> 
   custom:DOTSType/UnityEditor.VFX.HDRP.VFXHDRPSubOutput: 6789f5a1a06d1aff6789f5a1a06d1aff -> 
   custom:DOTSType/UnityEditor.Snap.SnapSettingsWindow: 23aaf38655ec118d23aaf38655ec118d -> 
+========================================================================
+Received Import Request.
+  Time since last request: 204020.881491 seconds.
+  path: Assets/Tables/Grand Tour Stripped (Bally 1964)/Sounds/GTReset.wav
+  artifactKey: Guid(1f22b3102e374fe469bc00e037d3850a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tables/Grand Tour Stripped (Bally 1964)/Sounds/GTReset.wav using Guid(1f22b3102e374fe469bc00e037d3850a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0188e50bfa3371ae68e5eb6805152bee') in 4.664484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001533 seconds.
+  path: Assets/Tables/Grand Tour Stripped (Bally 1964)/Textures/ColorGradeLUT256x16_ConSat.png
+  artifactKey: Guid(fb0f5036c1903f04dae069136ebce075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tables/Grand Tour Stripped (Bally 1964)/Textures/ColorGradeLUT256x16_ConSat.png using Guid(fb0f5036c1903f04dae069136ebce075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4675530b584b96921347de4bef7e325a') in 0.176565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Settings/HDRPDefaultResources/HDRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(ac0316ca287ba459492b669ff1317a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/HDRPDefaultResources/HDRenderPipelineGlobalSettings.asset using Guid(ac0316ca287ba459492b669ff1317a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4412f70be78ea388eb5c05860f260415') in 0.028064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Resources/InputBindings.inputactions
+  artifactKey: Guid(99940bc4c42ba40478c2c909717171ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/InputBindings.inputactions using Guid(99940bc4c42ba40478c2c909717171ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c9c0e02805f07f10aa803fd6723041b') in 0.138707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Tables/Grand Tour Stripped (Bally 1964)/Textures/ColorGradeLUT256x16_1to1.png
+  artifactKey: Guid(311ff6b70fbfe0f4b8ec4e2710da9b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tables/Grand Tour Stripped (Bally 1964)/Textures/ColorGradeLUT256x16_1to1.png using Guid(311ff6b70fbfe0f4b8ec4e2710da9b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '081151039911a46f5994b44aeb0d4048') in 0.538821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Settings/HDRP High Fidelity.asset
+  artifactKey: Guid(36dd385e759c96147b6463dcd1149c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/HDRP High Fidelity.asset using Guid(36dd385e759c96147b6463dcd1149c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '652489b924a8920882594443a7a4a47e') in 0.011025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 72.660601 seconds.
+  path: Assets/Tables/Grand Tour Stripped (Bally 1964)/Meshes/rflipr.fbx
+  artifactKey: Guid(b8f4b7f6c34cab847a50604f36c7dde5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tables/Grand Tour Stripped (Bally 1964)/Meshes/rflipr.fbx using Guid(b8f4b7f6c34cab847a50604f36c7dde5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1513622ccfb294eb1bce89bd836a193') in 1.579957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.048677 seconds.
+  path: Assets/Tables/Grand Tour Stripped (Bally 1964)/Meshes/SoundPoint13.fbx
+  artifactKey: Guid(d73607357a00352418c18fd55dac2512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tables/Grand Tour Stripped (Bally 1964)/Meshes/SoundPoint13.fbx using Guid(d73607357a00352418c18fd55dac2512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd88bb56e03f3db6beb926c73013dc2c2') in 0.051542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.539027 seconds.
+  path: Assets/Tables/Grand Tour Stripped (Bally 1964)/Meshes/toparch.fbx
+  artifactKey: Guid(9c598e068cf420e458f9abcf13083884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tables/Grand Tour Stripped (Bally 1964)/Meshes/toparch.fbx using Guid(9c598e068cf420e458f9abcf13083884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '029b42e674ed48d8be4f1a5816ada8f9') in 0.136165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Tables/Grand Tour Stripped (Bally 1964)/Meshes/UpperLeftBandNoScore.fbx
+  artifactKey: Guid(d475ccf586d06dc4189aff8d8bc51f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tables/Grand Tour Stripped (Bally 1964)/Meshes/UpperLeftBandNoScore.fbx using Guid(d475ccf586d06dc4189aff8d8bc51f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4856032ad07ea7dbd067322b309e83dd') in 0.092091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Tables/Grand Tour Stripped (Bally 1964)/Meshes/upperRightOnePointNoScore.fbx
+  artifactKey: Guid(4f16a6fd2bbe1654d976bbad178c1a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tables/Grand Tour Stripped (Bally 1964)/Meshes/upperRightOnePointNoScore.fbx using Guid(4f16a6fd2bbe1654d976bbad178c1a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c03fda796d34cb0645d4f3c526eeb5d') in 0.076906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Tables/Grand Tour Stripped (Bally 1964)/Meshes/UpperRightBandNoScore.fbx
+  artifactKey: Guid(45fc9053896fa8d4b80c1772638a9372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tables/Grand Tour Stripped (Bally 1964)/Meshes/UpperRightBandNoScore.fbx using Guid(45fc9053896fa8d4b80c1772638a9372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d395579a012fff95c684728770244a8') in 0.100808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.550609 seconds.
+  path: Assets/Tables/Grand Tour Stripped (Bally 1964)/Macros/Display.asset
+  artifactKey: Guid(030775b0d2e58d64d96304884214d3ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tables/Grand Tour Stripped (Bally 1964)/Macros/Display.asset using Guid(030775b0d2e58d64d96304884214d3ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6c2a8d8a9edf53ea41ad9785d790954') in 0.106883 seconds 

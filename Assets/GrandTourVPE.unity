@@ -49266,6 +49266,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2089551937}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2089551941 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8345816335357486725, guid: c557a5a88939f4f48ab972272730aa0b,
+    type: 3}
+  m_PrefabInstance: {fileID: 2089551937}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8840a3e9d44a5a443a20087784eae747, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!43 &2092799115
 Mesh:
   m_ObjectHideFlags: 0
@@ -50487,13 +50499,13 @@ MonoBehaviour:
     FadingSteps: 0
     Source: 0
     Type: 0
-    Name: l_leftButton
+    Name: l_leftSling10
     Desc: left button light
   - Channel: 0
     FadingSteps: 0
     Source: 0
     Type: 0
-    Name: l_rightButton
+    Name: l_righSling10
     Desc: right button light
   - Channel: 0
     FadingSteps: 0
@@ -51273,7 +51285,7 @@ MonoBehaviour:
           InputActionMap: 
           InputAction: 
           Constant: 0
-          _device: {fileID: 0}
+          _device: {fileID: 2089551941}
           DeviceItem: slingshot_switch
           PulseDelay: 250
         - Id: s_rightSling
@@ -51444,22 +51456,22 @@ MonoBehaviour:
           DeviceItem: 
           Type: 0
           Channel: 3
-        - Id: l_rightButton
+        - Id: l_righSling10
           Source: 0
           FadingSteps: 0
           IsCoil: 0
           Description: 
           _device: {fileID: 890120743}
-          DeviceItem: 
+          DeviceItem: default_lamp
           Type: 0
           Channel: 3
-        - Id: l_leftButton
+        - Id: l_leftSling10
           Source: 0
           FadingSteps: 0
           IsCoil: 0
           Description: 
           _device: {fileID: 1629507311}
-          DeviceItem: 
+          DeviceItem: default_lamp
           Type: 0
           Channel: 3
         - Id: l_l1

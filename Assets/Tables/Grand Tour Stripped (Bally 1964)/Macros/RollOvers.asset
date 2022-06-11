@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: RollOvers
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-182.7,"y":-135.4},"zoom":1.0,"elements":[{"inputCount":1,"coroutine":false,"defaultValues":{"0":{"$content":"s_rollover1","$type":"System.String"}},"position":{"x":-288.0,"y":-184.0},"guid":"e2edb754-e511-474f-8351-0d553c428b75","$version":"A","$type":"VisualPinball.Unity.VisualScripting.SwitchEnabledEventUnit","$id":"9"},{"Variable":{"Id":"b9e26f92-7332","Name":"score","Type":"Integer","StringDefaultValue":"","IntegerDefaultValue":0,"FloatDefaultValue":0.0,"BooleanDefaultValue":false,"$id":"12"},"defaultValues":{"Value":{"$content":1,"$type":"System.Int32"}},"position":{"x":-14.0,"y":-184.0},"guid":"a51ef11d-f1aa-4860-86c5-8827c1caacc0","$version":"A","$type":"VisualPinball.Unity.VisualScripting.IncreasePlayerVariableUnit","$id":"11"},{"Variable":{"$ref":"12"},"defaultValues":{"Value":{"$content":1,"$type":"System.Int32"}},"position":{"x":-13.0,"y":-10.0},"guid":"c1a7027b-5ad3-4ef0-826d-978e31b4c2e2","$version":"A","$type":"VisualPinball.Unity.VisualScripting.IncreasePlayerVariableUnit","$id":"14"},{"inputCount":1,"coroutine":false,"defaultValues":{"0":{"$content":"s_rollover2","$type":"System.String"}},"position":{"x":-287.0,"y":-10.0},"guid":"9c062b18-f902-4975-9b69-20678f4b6869","$version":"A","$type":"VisualPinball.Unity.VisualScripting.SwitchEnabledEventUnit","$id":"16"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"InputTrigger","guid":"3ba5e622-a864-4e4b-bf9e-ea58597ab0e0","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"trigger","destinationUnit":{"$ref":"14"},"destinationKey":"InputTrigger","guid":"b789de91-7437-4dc4-9610-f25e48cfe827","$type":"Unity.VisualScripting.ControlConnection"}],"$version":"A"}}'
+    _objectReferences: []

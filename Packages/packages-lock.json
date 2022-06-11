@@ -2,7 +2,7 @@
   "dependencies": {
     "com.autodesk.fbx": {
       "version": "4.1.1",
-      "depth": 3,
+      "depth": 2,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -27,7 +27,7 @@
     },
     "com.unity.collections": {
       "version": "0.15.0-preview.21",
-      "depth": 3,
+      "depth": 2,
       "source": "registry",
       "dependencies": {
         "com.unity.test-framework.performance": "2.3.1-preview",
@@ -44,7 +44,7 @@
     },
     "com.unity.entities": {
       "version": "0.17.0-preview.42",
-      "depth": 2,
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.burst": "1.4.1",
@@ -84,7 +84,7 @@
     },
     "com.unity.formats.fbx": {
       "version": "4.1.2",
-      "depth": 2,
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.timeline": "1.5.2",
@@ -119,7 +119,7 @@
     },
     "com.unity.inputsystem": {
       "version": "1.3.0",
-      "depth": 2,
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.modules.uielements": "1.0.0"
@@ -128,7 +128,7 @@
     },
     "com.unity.jobs": {
       "version": "0.8.0-preview.23",
-      "depth": 2,
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.collections": "0.15.0-preview.21",
@@ -145,14 +145,14 @@
     },
     "com.unity.nuget.mono-cecil": {
       "version": "1.10.1",
-      "depth": 3,
+      "depth": 2,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.nuget.newtonsoft-json": {
       "version": "2.0.0",
-      "depth": 4,
+      "depth": 3,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -166,7 +166,7 @@
     },
     "com.unity.platforms": {
       "version": "0.10.0-preview.10",
-      "depth": 3,
+      "depth": 2,
       "source": "registry",
       "dependencies": {
         "com.unity.properties": "1.6.0-preview",
@@ -178,7 +178,7 @@
     },
     "com.unity.properties": {
       "version": "1.6.0-preview",
-      "depth": 4,
+      "depth": 3,
       "source": "registry",
       "dependencies": {
         "com.unity.nuget.mono-cecil": "0.1.6-preview.2",
@@ -188,7 +188,7 @@
     },
     "com.unity.properties.ui": {
       "version": "1.6.2-preview.1",
-      "depth": 4,
+      "depth": 3,
       "source": "registry",
       "dependencies": {
         "com.unity.properties": "1.6.0-preview",
@@ -234,7 +234,7 @@
     },
     "com.unity.scriptablebuildpipeline": {
       "version": "1.19.6",
-      "depth": 3,
+      "depth": 2,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -248,7 +248,7 @@
     },
     "com.unity.serialization": {
       "version": "1.6.2-preview",
-      "depth": 4,
+      "depth": 3,
       "source": "registry",
       "dependencies": {
         "com.unity.collections": "0.12.0-preview.13",
@@ -297,7 +297,7 @@
     },
     "com.unity.test-framework.performance": {
       "version": "2.3.1-preview",
-      "depth": 3,
+      "depth": 2,
       "source": "registry",
       "dependencies": {
         "com.unity.test-framework": "1.1.0",
@@ -374,9 +374,9 @@
       "url": "https://registry.visualpinball.org"
     },
     "org.visualpinball.engine.unity": {
-      "version": "0.0.1-preview.106",
-      "depth": 1,
-      "source": "registry",
+      "version": "file:../../VisualPinball.Engine",
+      "depth": 0,
+      "source": "local",
       "dependencies": {
         "com.unity.burst": "1.6.5",
         "com.unity.entities": "0.17.0-preview.42",
@@ -386,37 +386,33 @@
         "com.unity.inputsystem": "1.3.0",
         "com.unity.ugui": "1.0.0",
         "com.unity.test-framework": "1.1.31"
-      },
-      "url": "https://registry.visualpinball.org"
+      }
     },
     "org.visualpinball.engine.unity.hdrp": {
-      "version": "0.0.1-preview.150",
+      "version": "file:../../VisualPinball.Unity.Hdrp",
       "depth": 0,
-      "source": "registry",
+      "source": "local",
       "dependencies": {
         "com.unity.render-pipelines.high-definition": "12.1.2",
         "com.unity.render-pipelines.high-definition-config": "12.1.2",
         "org.visualpinball.engine.unity": "0.0.1-preview.106",
         "org.visualpinball.unity.assetlibrary": "0.0.1-preview.53"
-      },
-      "url": "https://registry.visualpinball.org"
+      }
     },
     "org.visualpinball.engine.unity.visualscripting": {
-      "version": "0.0.1-preview.8",
+      "version": "file:../../VisualPinball.Unity.VisualScripting",
       "depth": 0,
-      "source": "registry",
+      "source": "local",
       "dependencies": {
         "com.unity.visualscripting": "1.7.7",
         "org.visualpinball.engine.unity": "0.0.1-preview.90"
-      },
-      "url": "https://registry.visualpinball.org"
+      }
     },
     "org.visualpinball.unity.assetlibrary": {
-      "version": "0.0.1-preview.53",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://registry.visualpinball.org"
+      "version": "file:../../VisualPinball.Unity.AssetLibrary",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {}
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",

@@ -365,13 +365,12 @@
       "url": "https://packages.unity.com"
     },
     "org.visualpinball.engine.pinmame": {
-      "version": "0.0.1-preview.35",
+      "version": "file:../../VisualPinball.Engine.PinMAME/VisualPinball.Engine.PinMAME.Unity",
       "depth": 0,
-      "source": "registry",
+      "source": "local",
       "dependencies": {
         "org.visualpinball.engine.unity": "0.0.1-preview.104"
-      },
-      "url": "https://registry.visualpinball.org"
+      }
     },
     "org.visualpinball.engine.unity": {
       "version": "file:../../VisualPinball.Engine",

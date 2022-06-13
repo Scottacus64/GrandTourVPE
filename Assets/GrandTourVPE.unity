@@ -2470,7 +2470,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 195553229}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -3}
+  m_LocalPosition: {x: 0, y: 0, z: -76}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -7219,12 +7219,12 @@ PrefabInstance:
     - target: {fileID: 529052273840286473, guid: 2300ac1fd0949c943a1b1bb455ab43f3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 901.00415
+      value: 1112.8063
       objectReference: {fileID: 0}
     - target: {fileID: 529052273840286473, guid: 2300ac1fd0949c943a1b1bb455ab43f3,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1689.1973
+      value: 1689.1976
       objectReference: {fileID: 0}
     - target: {fileID: 529052273840286473, guid: 2300ac1fd0949c943a1b1bb455ab43f3,
         type: 3}
@@ -7274,12 +7274,12 @@ PrefabInstance:
     - target: {fileID: 6337435363468084629, guid: 2300ac1fd0949c943a1b1bb455ab43f3,
         type: 3}
       propertyPath: Position.x
-      value: 901.00415
+      value: 1112.8063
       objectReference: {fileID: 0}
     - target: {fileID: 6337435363468084629, guid: 2300ac1fd0949c943a1b1bb455ab43f3,
         type: 3}
       propertyPath: Position.y
-      value: 1689.1973
+      value: 1689.1976
       objectReference: {fileID: 0}
     - target: {fileID: 6337435363468084629, guid: 2300ac1fd0949c943a1b1bb455ab43f3,
         type: 3}
@@ -7299,42 +7299,42 @@ PrefabInstance:
     - target: {fileID: 6337435363468084629, guid: 2300ac1fd0949c943a1b1bb455ab43f3,
         type: 3}
       propertyPath: _dragPoints.Array.data[0].Center.X
-      value: 871.00415
+      value: 1082.8063
       objectReference: {fileID: 0}
     - target: {fileID: 6337435363468084629, guid: 2300ac1fd0949c943a1b1bb455ab43f3,
         type: 3}
       propertyPath: _dragPoints.Array.data[0].Center.Y
-      value: 1659.1973
+      value: 1659.1976
       objectReference: {fileID: 0}
     - target: {fileID: 6337435363468084629, guid: 2300ac1fd0949c943a1b1bb455ab43f3,
         type: 3}
       propertyPath: _dragPoints.Array.data[1].Center.X
-      value: 871.00415
+      value: 1082.8063
       objectReference: {fileID: 0}
     - target: {fileID: 6337435363468084629, guid: 2300ac1fd0949c943a1b1bb455ab43f3,
         type: 3}
       propertyPath: _dragPoints.Array.data[1].Center.Y
-      value: 1719.1973
+      value: 1719.1976
       objectReference: {fileID: 0}
     - target: {fileID: 6337435363468084629, guid: 2300ac1fd0949c943a1b1bb455ab43f3,
         type: 3}
       propertyPath: _dragPoints.Array.data[2].Center.X
-      value: 931.00415
+      value: 1142.8062
       objectReference: {fileID: 0}
     - target: {fileID: 6337435363468084629, guid: 2300ac1fd0949c943a1b1bb455ab43f3,
         type: 3}
       propertyPath: _dragPoints.Array.data[2].Center.Y
-      value: 1719.1973
+      value: 1719.1976
       objectReference: {fileID: 0}
     - target: {fileID: 6337435363468084629, guid: 2300ac1fd0949c943a1b1bb455ab43f3,
         type: 3}
       propertyPath: _dragPoints.Array.data[3].Center.X
-      value: 931.00415
+      value: 1142.8062
       objectReference: {fileID: 0}
     - target: {fileID: 6337435363468084629, guid: 2300ac1fd0949c943a1b1bb455ab43f3,
         type: 3}
       propertyPath: _dragPoints.Array.data[3].Center.Y
-      value: 1659.1973
+      value: 1659.1976
       objectReference: {fileID: 0}
     - target: {fileID: 6337435363468084629, guid: 2300ac1fd0949c943a1b1bb455ab43f3,
         type: 3}
@@ -18712,6 +18712,26 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &894592976 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1188222688698923130, guid: 7cf52ed5661e9534bb7cad22f47d8787,
+    type: 3}
+  m_PrefabInstance: {fileID: 1120578066}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &894592980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 894592976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab2020dc8f79c7543b66ff6ec8830aed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LiftedAngleDeg: 15
+  AnimationSpeed: 0.1
 --- !u!1 &894603440 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8116499157636777247, guid: 2300ac1fd0949c943a1b1bb455ab43f3,
@@ -18766,6 +18786,18 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &894603448 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6337435363468084629, guid: 2300ac1fd0949c943a1b1bb455ab43f3,
+    type: 3}
+  m_PrefabInstance: {fileID: 361619490}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 894603440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 064785265e73edf499c963876c56ebac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &894984296
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25195,6 +25227,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: gateBrackets
       objectReference: {fileID: 0}
+    - target: {fileID: 5926445367393707725, guid: 7eab5b5aa900f0c4c992e969f231271f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7011704082636338910, guid: 7eab5b5aa900f0c4c992e969f231271f,
         type: 3}
       propertyPath: m_RootOrder
@@ -30087,7 +30124,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1553402579}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -49771,8 +49808,8 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
+  near clip plane: 0.01
+  far clip plane: 100
   field of view: 60
   orthographic: 0
   orthographic size: 5
@@ -49798,8 +49835,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2059096375}
-  m_LocalRotation: {x: 0.52846813, y: -0.00381371, z: 0.0023741494, w: 0.84894127}
-  m_LocalPosition: {x: -0.08015503, y: 0.7761508, z: -0.45040786}
+  m_LocalRotation: {x: 0.26013947, y: -0.22174165, z: 0.061502326, w: 0.9377503}
+  m_LocalPosition: {x: 0.20608895, y: 0.081204034, z: -0.038978677}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -51194,6 +51231,10 @@ MonoBehaviour:
     Id: 1112f28a-7769
   - Name: Tilt
     Id: 9b25d8b4-2757
+  - Name: Gate Open
+    Id: 2ec29fc6-a9b3
+  - Name: Gate Closed
+    Id: bfa7be70-5bf8
   Displays:
   - Id: segmentDisplay
     Width: 5
@@ -51410,6 +51451,13 @@ MonoBehaviour:
     ConstantHint: 0
     Name: s_rollover2
     Desc: right rollover
+  - NormallyClosed: 0
+    IsPulseSwitch: 0
+    InputActionHint: 
+    InputMapHint: 
+    ConstantHint: 0
+    Name: s_tourGate
+    Desc: tour gate lifter switch
   Coils:
   - IsLamp: 0
     IsUnused: 0
@@ -51422,6 +51470,10 @@ MonoBehaviour:
   - IsLamp: 0
     IsUnused: 0
     Name: c_trough
+    Desc: 
+  - IsLamp: 0
+    IsUnused: 0
+    Name: c_gateLifter
     Desc: 
   Lamps:
   - Channel: 0
@@ -51513,12 +51565,6 @@ MonoBehaviour:
     Source: 0
     Type: 0
     Name: l_righSling10
-    Desc: right button light
-  - Channel: 0
-    FadingSteps: 0
-    Source: 0
-    Type: 0
-    Name: l_l1
     Desc: right button light
   Wires: []
 --- !u!114 &2140023973
@@ -52325,6 +52371,16 @@ MonoBehaviour:
           _device: {fileID: 1310658135}
           DeviceItem: trigger_switch
           PulseDelay: 250
+        - Id: s_tourGate
+          IsNormallyClosed: 0
+          Description: 
+          Source: 1
+          InputActionMap: 
+          InputAction: 
+          Constant: 0
+          _device: {fileID: 894603448}
+          DeviceItem: trigger_switch
+          PulseDelay: 250
         Coils:
         - Id: c_left_flipper
           Description: Left Flipper (Main)
@@ -52346,6 +52402,11 @@ MonoBehaviour:
           Destination: 0
           _device: {fileID: 549865563}
           DeviceItem: eject_coil
+        - Id: c_gateLifter
+          Description: Tour Gate Lifter
+          Destination: 0
+          _device: {fileID: 894592980}
+          DeviceItem: lifter_coil
         Wires:
         - Id: wire_4749b125
           Description: Left Flipper
@@ -52381,6 +52442,18 @@ MonoBehaviour:
           SourceDeviceItem: 
           _destinationDevice: {fileID: 2062106927}
           DestinationDeviceItem: c_pull
+          PulseDelay: 250
+          IsDynamic: 0
+        - Id: wire_db600ab7
+          Description: Tour Gate Lifter
+          Source: 1
+          SourceInputActionMap: Cabinet Switches
+          SourceInputAction: Left Flipper
+          SourceConstant: 0
+          _sourceDevice: {fileID: 1246242623}
+          SourceDeviceItem: eos_switch
+          _destinationDevice: {fileID: 894592980}
+          DestinationDeviceItem: lifter_coil
           PulseDelay: 250
           IsDynamic: 0
         Lamps:
@@ -52499,15 +52572,6 @@ MonoBehaviour:
           Description: 
           _device: {fileID: 1629507311}
           DeviceItem: default_lamp
-          Type: 0
-          Channel: 3
-        - Id: l_l1
-          Source: 0
-          FadingSteps: 0
-          IsCoil: 0
-          Description: 
-          _device: {fileID: 0}
-          DeviceItem: 
           Type: 0
           Channel: 3
 --- !u!4 &2140023976

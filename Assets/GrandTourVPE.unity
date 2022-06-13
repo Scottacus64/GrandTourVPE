@@ -52444,18 +52444,6 @@ MonoBehaviour:
           DestinationDeviceItem: c_pull
           PulseDelay: 250
           IsDynamic: 0
-        - Id: wire_db600ab7
-          Description: Tour Gate Lifter
-          Source: 1
-          SourceInputActionMap: Cabinet Switches
-          SourceInputAction: Left Flipper
-          SourceConstant: 0
-          _sourceDevice: {fileID: 1246242623}
-          SourceDeviceItem: eos_switch
-          _destinationDevice: {fileID: 894592980}
-          DestinationDeviceItem: lifter_coil
-          PulseDelay: 250
-          IsDynamic: 0
         Lamps:
         - Id: l_gi
           Source: 0

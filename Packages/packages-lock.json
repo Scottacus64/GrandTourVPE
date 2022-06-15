@@ -364,14 +364,6 @@
       },
       "url": "https://packages.unity.com"
     },
-    "org.visualpinball.engine.pinmame": {
-      "version": "file:../../VisualPinball.Engine.PinMAME/VisualPinball.Engine.PinMAME.Unity",
-      "depth": 0,
-      "source": "local",
-      "dependencies": {
-        "org.visualpinball.engine.unity": "0.0.1-preview.104"
-      }
-    },
     "org.visualpinball.engine.unity": {
       "version": "file:../../VisualPinball.Engine",
       "depth": 0,

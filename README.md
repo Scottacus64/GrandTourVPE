@@ -10,13 +10,24 @@ We've referenced the VPE packages locally since it makes things easier for the d
 
 1. Open a console and go to the folder where you would like to clone the VPE repositories. If you haven't already, you'll probably need to install [.NET Core](https://dotnet.microsoft.com/en-us/download/dotnet/3.1) to compile.
 
+HTTPS:
+
 ```bash
 git clone https://github.com/Scottacus64/GrandTourVPE.git
 git clone https://github.com/VisualPinball/VisualPinball.Unity.Hdrp.git
 git clone https://github.com/VisualPinball/VisualPinball.Unity.AssetLibrary.git
-git clone https://github.com/VisualPinball/VisualPinball.Engine.PinMAME.git
-git clone https://github.com/VisualPinball/VisualPinball.Unity.VisualScripting.git
+git clone https://github.com:VisualPinball/VisualPinball.Unity.VisualScripting.git
 git clone https://github.com/freezy/VisualPinball.Engine.git
+```
+
+SSH:
+
+```bash
+git clone git@github.com:Scottacus64/GrandTourVPE.git
+git clone git@github.com:VisualPinball/VisualPinball.Unity.Hdrp.git
+git clone git@github.com:VisualPinball/VisualPinball.Unity.AssetLibrary.git
+git clone git@github.com:VisualPinball/VisualPinball.Unity.VisualScripting.git
+git clone git@github.com:freezy/VisualPinball.Engine.git
 ```
 
 Then, compile the test project which copies the native dependencies to the Unity folder, as well as the PinMAME project.
@@ -26,26 +37,15 @@ Then, compile the test project which copies the native dependencies to the Unity
   
 ```bash
 dotnet build VisualPinball.Engine/VisualPinball.Engine.Test/VisualPinball.Engine.Test.csproj -c Release -r win-x64
-dotnet build VisualPinball.Engine.PinMAME/VisualPinball.Engine.PinMAME/VisualPinball.Engine.PinMAME.csproj -c Release -r win-x64
 ```
 </details>
 
 <details>
-  <summary>MacOS - Intel</summary>
+  <summary>MacOS Universal</summary>
   
 ```bash
-dotnet build VisualPinball.Engine/VisualPinball.Engine.Test/VisualPinball.Engine.Test.csproj -c Release -r osx-x64
-dotnet build VisualPinball.Engine.PinMAME/VisualPinball.Engine.PinMAME/VisualPinball.Engine.PinMAME.csproj -c Release -r osx-x64
-  ```
-</details>
-
-<details>
-  <summary>MacOS - Apple Silicon</summary>
-  
-```bash
-dotnet build VisualPinball.Engine/VisualPinball.Engine.Test/VisualPinball.Engine.Test.csproj -c Release -r osx-arm64
-dotnet build VisualPinball.Engine.PinMAME/VisualPinball.Engine.PinMAME/VisualPinball.Engine.PinMAME.csproj -c Release -r osx-arm64
-  ```
+dotnet build VisualPinball.Engine/VisualPinball.Engine.Test/VisualPinball.Engine.Test.csproj -c Release -r osx
+```
 </details>
 
 <details>
@@ -53,7 +53,6 @@ dotnet build VisualPinball.Engine.PinMAME/VisualPinball.Engine.PinMAME/VisualPin
   
 ```bash
 dotnet build VisualPinball.Engine/VisualPinball.Engine.Test/VisualPinball.Engine.Test.csproj -c Release -r linux-x64
-dotnet build VisualPinball.Engine.PinMAME/VisualPinball.Engine.PinMAME/VisualPinball.Engine.PinMAME.csproj -c Release -r linux-x64
   ```
 </details>
 

@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: BallInPlay
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"Variable":{"Id":"742c668e-8c47","Name":"BallinPlay","Type":"Integer","StringDefaultValue":"","IntegerDefaultValue":1,"FloatDefaultValue":0.0,"BooleanDefaultValue":false,"$id":"10"},"coroutine":false,"defaultValues":{},"position":{"x":-328.0,"y":-143.0},"guid":"dd0a2620-2562-420a-b360-e92b2690f02d","$version":"A","$type":"VisualPinball.Unity.VisualScripting.PlayerVariableChangedEventUnit","$id":"9"},{"MatchDataType":"OnOff","NonMatchDataType":"OnOff","ValueCompareType":"Equal","inputCount":5,"defaultValues":{"0":{"$content":"{\"id\":\"l_bip1\",\"value\":1}","$type":"System.String"},"1":{"$content":"{\"id\":\"l_bip2\",\"value\":2}","$type":"System.String"},"2":{"$content":"{\"id\":\"l_bip3\",\"value\":3}","$type":"System.String"},"3":{"$content":"{\"id\":\"l_bip4\",\"value\":4}","$type":"System.String"},"4":{"$content":"{\"id\":\"l_bip5\",\"value\":5}","$type":"System.String"},"Match":{"$content":true,"$type":"System.Boolean"},"NonMatch":{"$content":false,"$type":"System.Boolean"}},"position":{"x":-18.0,"y":-205.0},"guid":"893af076-e9f8-4435-af8c-8b29e6b3f3cc","$version":"A","$type":"VisualPinball.Unity.VisualScripting.SwitchLampUnit","$id":"12"},{"Variable":{"$ref":"10"},"defaultValues":{},"position":{"x":-320.0,"y":76.0},"guid":"e9eb1ef8-d893-4488-8ed2-603eca07c6c0","$version":"A","$type":"VisualPinball.Unity.VisualScripting.GetPlayerVariableUnit","$id":"14"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"12"},"destinationKey":"InputTrigger","guid":"d3ccd51e-de61-4f66-9faa-061d23f34b36","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"Value","destinationUnit":{"$ref":"12"},"destinationKey":"SourceValue","guid":"40e627e3-0ad5-47fd-81d5-d95475d11bf4","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []

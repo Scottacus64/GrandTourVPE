@@ -5294,7 +5294,7 @@ GameObject:
   m_Component:
   - component: {fileID: 215599583}
   m_Layer: 0
-  m_Name: PlayfieldVisible
+  m_Name: Playfield Visible
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

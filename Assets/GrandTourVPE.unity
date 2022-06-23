@@ -55176,7 +55176,7 @@ GameObject:
   - component: {fileID: 1907221984}
   - component: {fileID: 1907221983}
   m_Layer: 0
-  m_Name: bipDisplay
+  m_Name: matchDisplay
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

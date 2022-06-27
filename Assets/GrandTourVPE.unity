@@ -61987,6 +61987,13 @@ MonoBehaviour:
     IntegerDefaultValue: 0
     FloatDefaultValue: 0.4
     BooleanDefaultValue: 0
+  - Id: 4f69a6b7-2dd1
+    Name: Credit
+    Type: 1
+    StringDefaultValue: 
+    IntegerDefaultValue: 0
+    FloatDefaultValue: 0.4
+    BooleanDefaultValue: 0
   PlayerVariableDefinitions:
   - Id: b9e26f92-7332
     Name: score

@@ -1747,7 +1747,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 0}
-  m_Intensity: 7.9171867
+  m_Intensity: 7.917187
   m_Range: 0.15
   m_SpotAngle: 40
   m_InnerSpotAngle: 4
@@ -13462,7 +13462,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 0}
-  m_Intensity: 7.9171867
+  m_Intensity: 7.917187
   m_Range: 0.15
   m_SpotAngle: 40
   m_InnerSpotAngle: 4
@@ -14687,7 +14687,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 0}
-  m_Intensity: 29.029684
+  m_Intensity: 29.029686
   m_Range: 0.15
   m_SpotAngle: 40
   m_InnerSpotAngle: 4
@@ -15354,7 +15354,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8580245ee3efd04aac822f08fbac385, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Direction: 0
+  Direction: 1
   Speed: 1
   Wait: 0
 --- !u!23 &636821535
@@ -18379,7 +18379,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 0}
-  m_Intensity: 29.029684
+  m_Intensity: 29.029686
   m_Range: 0.15
   m_SpotAngle: 40
   m_InnerSpotAngle: 4
@@ -20487,7 +20487,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 0}
-  m_Intensity: 7.9171867
+  m_Intensity: 7.917187
   m_Range: 0.15
   m_SpotAngle: 40
   m_InnerSpotAngle: 4
@@ -24574,7 +24574,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 0}
-  m_Intensity: 7.9171867
+  m_Intensity: 7.917187
   m_Range: 0.15
   m_SpotAngle: 40
   m_InnerSpotAngle: 4
@@ -25756,7 +25756,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 0}
-  m_Intensity: 7.9171867
+  m_Intensity: 7.917187
   m_Range: 0.15
   m_SpotAngle: 40
   m_InnerSpotAngle: 4
@@ -27065,7 +27065,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8580245ee3efd04aac822f08fbac385, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Direction: 0
+  Direction: 1
   Speed: 1
   Wait: 0
 --- !u!23 &1113746812
@@ -27837,7 +27837,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 0}
-  m_Intensity: 7.9171867
+  m_Intensity: 7.917187
   m_Range: 0.15
   m_SpotAngle: 40
   m_InnerSpotAngle: 4
@@ -29216,7 +29216,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 0}
-  m_Intensity: 7.9171867
+  m_Intensity: 7.917187
   m_Range: 0.15
   m_SpotAngle: 40
   m_InnerSpotAngle: 4
@@ -34078,7 +34078,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 0}
-  m_Intensity: 7.9171867
+  m_Intensity: 7.917187
   m_Range: 0.15
   m_SpotAngle: 40
   m_InnerSpotAngle: 4
@@ -35698,7 +35698,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 0}
-  m_Intensity: 7.9171867
+  m_Intensity: 7.917187
   m_Range: 0.15
   m_SpotAngle: 40
   m_InnerSpotAngle: 4
@@ -37264,7 +37264,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 0}
-  m_Intensity: 29.029684
+  m_Intensity: 29.029686
   m_Range: 0.15
   m_SpotAngle: 40
   m_InnerSpotAngle: 4
@@ -40138,7 +40138,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 0}
-  m_Intensity: 7.9171867
+  m_Intensity: 7.917187
   m_Range: 0.15
   m_SpotAngle: 40
   m_InnerSpotAngle: 4
@@ -40200,7 +40200,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8580245ee3efd04aac822f08fbac385, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Direction: 0
+  Direction: 1
   Speed: 1
   Wait: 0
 --- !u!1001 &1675315021
@@ -42691,7 +42691,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8580245ee3efd04aac822f08fbac385, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Direction: 0
+  Direction: 1
   Speed: 1
   Wait: 0
 --- !u!23 &1721786560
@@ -55854,7 +55854,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 0}
-  m_Intensity: 29.029684
+  m_Intensity: 29.029686
   m_Range: 0.15
   m_SpotAngle: 40
   m_InnerSpotAngle: 4
@@ -56596,7 +56596,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 0}
-  m_Intensity: 0.4455471
+  m_Intensity: 0.44554713
   m_Range: 0.2
   m_SpotAngle: 100
   m_InnerSpotAngle: 4
@@ -60527,7 +60527,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 0}
-  m_Intensity: 7.9171867
+  m_Intensity: 7.917187
   m_Range: 0.15
   m_SpotAngle: 40
   m_InnerSpotAngle: 4
@@ -62283,6 +62283,13 @@ MonoBehaviour:
     ConstantHint: 0
     Name: s_tourGate
     Desc: tour gate lifter switch
+  - NormallyClosed: 0
+    IsPulseSwitch: 0
+    InputActionHint: 
+    InputMapHint: 
+    ConstantHint: 0
+    Name: s_test_switch
+    Desc: test switch
   Coils:
   - IsLamp: 0
     IsUnused: 0
@@ -63498,6 +63505,16 @@ MonoBehaviour:
           _device: {fileID: 894603448}
           DeviceItem: trigger_switch
           PulseDelay: 250
+        - Id: s_test_switch
+          IsNormallyClosed: 0
+          Description: test switch
+          Source: 0
+          InputActionMap: Cabinet Switches
+          InputAction: Slam Tilt
+          Constant: 0
+          _device: {fileID: 0}
+          DeviceItem: 
+          PulseDelay: 250
         Coils:
         - Id: c_left_flipper
           Description: Left Flipper (Main)
@@ -64202,7 +64219,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 0}
-  m_Intensity: 7.9171867
+  m_Intensity: 7.917187
   m_Range: 0.15
   m_SpotAngle: 40
   m_InnerSpotAngle: 4

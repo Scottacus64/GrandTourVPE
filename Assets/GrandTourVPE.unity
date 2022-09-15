@@ -10770,6 +10770,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99fe3667b915b4047915635f923aa6b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _id: ScoreReelSet
   Speed: 15
   Wait: 30
   ReelObjects:
@@ -10777,7 +10778,7 @@ MonoBehaviour:
   - {fileID: 1721786559}
   - {fileID: 1113746811}
   - {fileID: 636821534}
-  _id: ScoreReelSet
+  ScoreMotorComponent: {fileID: 2140023979}
 --- !u!1 &458710995 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5926445367393707725, guid: 7eab5b5aa900f0c4c992e969f231271f,
@@ -61923,6 +61924,7 @@ GameObject:
   - component: {fileID: 2140023974}
   - component: {fileID: 2140023973}
   - component: {fileID: 2140023972}
+  - component: {fileID: 2140023979}
   - component: {fileID: 2140023978}
   - component: {fileID: 2140023977}
   m_Layer: 0
@@ -61972,20 +61974,6 @@ MonoBehaviour:
     StringDefaultValue: 
     IntegerDefaultValue: 0
     FloatDefaultValue: 0
-    BooleanDefaultValue: 0
-  - Id: f1eee77c-8349
-    Name: ScoreMotorDuration
-    Type: 2
-    StringDefaultValue: 
-    IntegerDefaultValue: 0
-    FloatDefaultValue: 0.75
-    BooleanDefaultValue: 0
-  - Id: 5977c79a-3a34
-    Name: ScoreMotorRunning
-    Type: 3
-    StringDefaultValue: 
-    IntegerDefaultValue: 0
-    FloatDefaultValue: 0.4
     BooleanDefaultValue: 0
   - Id: 4f69a6b7-2dd1
     Name: Credit
@@ -62053,18 +62041,18 @@ MonoBehaviour:
   - Name: Match
     Id: 80f327c4-32df
   Displays:
-  - Id: segmentDisplay
-    Width: 5
-    Height: 1
-    SupportedFormats: 0400000006000000
-  - Id: bipDisplay
-    Width: 5
-    Height: 1
-    SupportedFormats: 0400000006000000
   - Id: ScoreReelSet
     Width: 5
     Height: 1
     SupportedFormats: 06000000
+  - Id: bipDisplay
+    Width: 5
+    Height: 1
+    SupportedFormats: 0400000006000000
+  - Id: segmentDisplay
+    Width: 5
+    Height: 1
+    SupportedFormats: 0400000006000000
   Switches:
   - NormallyClosed: 0
     IsPulseSwitch: 0
@@ -62283,6 +62271,20 @@ MonoBehaviour:
     ConstantHint: 0
     Name: s_tourGate
     Desc: tour gate lifter switch
+  - NormallyClosed: 0
+    IsPulseSwitch: 0
+    InputActionHint: 
+    InputMapHint: 
+    ConstantHint: 0
+    Name: running_motor_running
+    Desc: score motor running
+  - NormallyClosed: 0
+    IsPulseSwitch: 0
+    InputActionHint: 
+    InputMapHint: 
+    ConstantHint: 0
+    Name: s_score_motor_step
+    Desc: score motor step
   - NormallyClosed: 0
     IsPulseSwitch: 0
     InputActionHint: 
@@ -63515,6 +63517,26 @@ MonoBehaviour:
           _device: {fileID: 0}
           DeviceItem: 
           PulseDelay: 250
+        - Id: s_score_motor_running
+          IsNormallyClosed: 0
+          Description: score motor running
+          Source: 1
+          InputActionMap: 
+          InputAction: 
+          Constant: 0
+          _device: {fileID: 2140023979}
+          DeviceItem: motor_running_switch
+          PulseDelay: 250
+        - Id: s_score_motor_step
+          IsNormallyClosed: 0
+          Description: score motor step
+          Source: 1
+          InputActionMap: 
+          InputAction: 
+          Constant: 0
+          _device: {fileID: 2140023979}
+          DeviceItem: motor_step_switch
+          PulseDelay: 10
         Coils:
         - Id: c_left_flipper
           Description: Left Flipper (Main)
@@ -64028,6 +64050,27 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
+--- !u!114 &2140023979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2140023971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a117e248598174ab7bbca5de8b7603b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Duration: 769
+  Steps: 6
+  BlockScoring: 0
+  ScoreMotorTimingList:
+  - Actions: 000000000000000000000000000000000000000001000000
+  - Actions: 000000000100000001000000000000000000000000000000
+  - Actions: 000000000100000001000000010000000000000000000000
+  - Actions: 000000000100000001000000010000000100000000000000
+  - Actions: 000000000100000001000000010000000100000001000000
 --- !u!114 &680429305529588626
 MonoBehaviour:
   m_ObjectHideFlags: 0

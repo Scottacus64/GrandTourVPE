@@ -386,7 +386,7 @@
       "dependencies": {
         "com.unity.render-pipelines.high-definition": "12.1.2",
         "com.unity.render-pipelines.high-definition-config": "12.1.2",
-        "org.visualpinball.engine.unity": "0.0.1-preview.119",
+        "org.visualpinball.engine.unity": "0.0.1-preview.117",
         "org.visualpinball.unity.assetlibrary": "0.0.1-preview.53"
       }
     },
@@ -465,6 +465,12 @@
       "dependencies": {}
     },
     "com.unity.modules.jsonserialize": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.nvidia": {
       "version": "1.0.0",
       "depth": 0,
       "source": "builtin",

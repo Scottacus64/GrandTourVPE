@@ -566,7 +566,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 26244804}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -1193,7 +1193,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 85031078}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -1247,7 +1247,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 92324438}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -1296,27 +1296,57 @@ PrefabInstance:
     - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Intensity
-      value: 0.5
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShapeRadius
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: useVolumetric
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowNearPlane
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_AlwaysDrawDynamicShadows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowResolution.m_Override
+      value: 128
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Range
-      value: 0.060000002
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Color.a
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Color.b
-      value: 0.6666667
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.8392157
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
@@ -1326,7 +1356,27 @@ PrefabInstance:
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Intensity
-      value: 0.039788734
+      value: 0.87535214
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowRadius
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ColorTemperature
+      value: 3750
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2649789736405374282, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
@@ -1432,6 +1482,11 @@ PrefabInstance:
         type: 3}
       propertyPath: _editorLayerName
       value: Layer_6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319138183982319072, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28e4ce2115e895249b03d093e232dbe9, type: 3}
@@ -1927,7 +1982,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 103718241}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -2116,6 +2171,11 @@ PrefabInstance:
     - target: {fileID: 6207005947276562095, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319138183982319072, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -2399,7 +2459,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 115143897}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -2447,7 +2507,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 125106790}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -2651,6 +2711,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7319138183982319072, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28e4ce2115e895249b03d093e232dbe9, type: 3}
 --- !u!4 &144298319 stripped
@@ -2824,6 +2889,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7319138183982319072, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28e4ce2115e895249b03d093e232dbe9, type: 3}
 --- !u!1001 &151854769
@@ -2981,7 +3051,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 152326141}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -3035,7 +3105,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 176537339}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -3089,7 +3159,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 187257154}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -3691,7 +3761,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 197467595}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -4398,7 +4468,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 209952036}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -5151,7 +5221,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 211426466}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -5403,7 +5473,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 218475371}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -5760,7 +5830,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 234799293}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -6300,7 +6370,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 256568259}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -6354,7 +6424,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 263902332}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -6524,7 +6594,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 267465558}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -6754,7 +6824,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 277431628}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -6808,7 +6878,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 279436040}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -6856,7 +6926,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 281360631}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -6904,7 +6974,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 282341934}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -6953,27 +7023,57 @@ PrefabInstance:
     - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Intensity
-      value: 5.5
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShapeRadius
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: useVolumetric
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowNearPlane
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_AlwaysDrawDynamicShadows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowResolution.m_Override
+      value: 128
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Range
-      value: 0.060000002
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Color.a
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Color.b
-      value: 0.6666667
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.8392157
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
@@ -6983,7 +7083,27 @@ PrefabInstance:
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Intensity
-      value: 0.43767607
+      value: 0.87535214
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowRadius
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ColorTemperature
+      value: 3750
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2649789736405374282, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
@@ -7089,6 +7209,11 @@ PrefabInstance:
         type: 3}
       propertyPath: _editorLayerName
       value: Layer_6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319138183982319072, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28e4ce2115e895249b03d093e232dbe9, type: 3}
@@ -7440,7 +7565,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 296232465}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -7520,6 +7645,11 @@ PrefabInstance:
         type: 3}
       propertyPath: HitHeight
       value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 6572154267263303490, guid: 3321d89f4f1faff40a6cc78dc1394373,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8408902807865949067, guid: 3321d89f4f1faff40a6cc78dc1394373,
         type: 3}
@@ -7631,7 +7761,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 317122967}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -7680,27 +7810,57 @@ PrefabInstance:
     - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Intensity
-      value: 5.5
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShapeRadius
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: useVolumetric
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowNearPlane
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_AlwaysDrawDynamicShadows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowResolution.m_Override
+      value: 128
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Range
-      value: 0.060000002
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Color.a
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Color.b
-      value: 0.6666667
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.8392157
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
@@ -7710,7 +7870,27 @@ PrefabInstance:
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Intensity
-      value: 0.43767607
+      value: 0.87535214
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowRadius
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ColorTemperature
+      value: 3750
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2649789736405374282, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
@@ -7816,6 +7996,11 @@ PrefabInstance:
         type: 3}
       propertyPath: _editorLayerName
       value: Layer_6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319138183982319072, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28e4ce2115e895249b03d093e232dbe9, type: 3}
@@ -8231,7 +8416,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 340036013}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -8719,7 +8904,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 358203502}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -9498,6 +9683,11 @@ PrefabInstance:
       propertyPath: _editorLayerName
       value: Layer_6
       objectReference: {fileID: 0}
+    - target: {fileID: 7319138183982319072, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28e4ce2115e895249b03d093e232dbe9, type: 3}
 --- !u!1 &393302283 stripped
@@ -9514,7 +9704,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 393302283}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -9953,7 +10143,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 402927169}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -10001,7 +10191,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 403022138}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -10055,7 +10245,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 404961087}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -10425,7 +10615,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 429967728}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -10700,7 +10890,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 458710995}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -10766,9 +10956,29 @@ PrefabInstance:
       propertyPath: Force
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 2116278473410869078, guid: 08c478855fd13264fb749945b21cee53,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2855870074223701206, guid: 08c478855fd13264fb749945b21cee53,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4142735908450955278, guid: 08c478855fd13264fb749945b21cee53,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5797145664016368702, guid: 08c478855fd13264fb749945b21cee53,
         type: 3}
       propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8557801633222693968, guid: 08c478855fd13264fb749945b21cee53,
+        type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8936098568141045026, guid: 08c478855fd13264fb749945b21cee53,
@@ -11269,7 +11479,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 488114796}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -11487,7 +11697,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 495318291}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -11746,27 +11956,57 @@ PrefabInstance:
     - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Intensity
-      value: 0.5
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShapeRadius
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: useVolumetric
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowNearPlane
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_AlwaysDrawDynamicShadows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowResolution.m_Override
+      value: 128
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Range
-      value: 0.060000002
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Color.a
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Color.b
-      value: 0.6666667
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.8392157
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
@@ -11776,7 +12016,27 @@ PrefabInstance:
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Intensity
-      value: 0.039788734
+      value: 0.87535214
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowRadius
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ColorTemperature
+      value: 3750
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2649789736405374282, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
@@ -11883,6 +12143,11 @@ PrefabInstance:
       propertyPath: _editorLayerName
       value: Layer_6
       objectReference: {fileID: 0}
+    - target: {fileID: 7319138183982319072, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28e4ce2115e895249b03d093e232dbe9, type: 3}
 --- !u!1 &507335005 stripped
@@ -11905,7 +12170,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 507335005}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -12101,6 +12366,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7319138183982319072, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28e4ce2115e895249b03d093e232dbe9, type: 3}
 --- !u!1 &514319804 stripped
@@ -12117,7 +12387,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 514319804}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -12248,7 +12518,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 525511610}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -13022,6 +13292,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7319138183982319072, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28e4ce2115e895249b03d093e232dbe9, type: 3}
 --- !u!1001 &565452228
@@ -13440,7 +13715,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 585407380}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -13715,7 +13990,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 592820228}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -14665,7 +14940,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 606491813}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -14719,7 +14994,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 608841750}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -15077,7 +15352,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 620044464}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -15166,7 +15441,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 635629541}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -15269,7 +15544,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 636821532}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -15600,6 +15875,11 @@ PrefabInstance:
     - target: {fileID: 6207005947276562095, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319138183982319072, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -15946,7 +16226,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 655653737}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -16283,6 +16563,11 @@ PrefabInstance:
       propertyPath: _editorLayerName
       value: Layer_6
       objectReference: {fileID: 0}
+    - target: {fileID: 7319138183982319072, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28e4ce2115e895249b03d093e232dbe9, type: 3}
 --- !u!4 &659101349 stripped
@@ -16470,9 +16755,29 @@ PrefabInstance:
       propertyPath: Force
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 2116278473410869078, guid: 08c478855fd13264fb749945b21cee53,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2855870074223701206, guid: 08c478855fd13264fb749945b21cee53,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4142735908450955278, guid: 08c478855fd13264fb749945b21cee53,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5797145664016368702, guid: 08c478855fd13264fb749945b21cee53,
         type: 3}
       propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8557801633222693968, guid: 08c478855fd13264fb749945b21cee53,
+        type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8936098568141045026, guid: 08c478855fd13264fb749945b21cee53,
@@ -16788,7 +17093,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 673168201}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -17336,7 +17641,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 678174074}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -17384,7 +17689,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 679326857}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -17616,6 +17921,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7319138183982319072, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28e4ce2115e895249b03d093e232dbe9, type: 3}
 --- !u!1001 &695470510
@@ -17748,7 +18058,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 697027064}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -17797,27 +18107,57 @@ PrefabInstance:
     - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Intensity
-      value: 0.5
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShapeRadius
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: useVolumetric
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowNearPlane
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_AlwaysDrawDynamicShadows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowResolution.m_Override
+      value: 128
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Range
-      value: 0.060000002
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Color.a
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Color.b
-      value: 0.6666667
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.8392157
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
@@ -17827,7 +18167,27 @@ PrefabInstance:
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Intensity
-      value: 0.039788734
+      value: 0.87535214
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowRadius
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ColorTemperature
+      value: 3750
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2649789736405374282, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
@@ -17934,6 +18294,11 @@ PrefabInstance:
       propertyPath: _editorLayerName
       value: Layer_6
       objectReference: {fileID: 0}
+    - target: {fileID: 7319138183982319072, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28e4ce2115e895249b03d093e232dbe9, type: 3}
 --- !u!1 &704190533 stripped
@@ -17950,7 +18315,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 704190533}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -18004,7 +18369,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 712617270}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -18058,7 +18423,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 714906739}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -18353,7 +18718,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 718322348}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -18769,27 +19134,57 @@ PrefabInstance:
     - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Intensity
-      value: 5.5
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShapeRadius
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: useVolumetric
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowNearPlane
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_AlwaysDrawDynamicShadows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowResolution.m_Override
+      value: 128
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Range
-      value: 0.060000002
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Color.a
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Color.b
-      value: 0.6666667
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.8392157
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
@@ -18799,7 +19194,27 @@ PrefabInstance:
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Intensity
-      value: 0.43767607
+      value: 0.87535214
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowRadius
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ColorTemperature
+      value: 3750
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2649789736405374282, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
@@ -18905,6 +19320,11 @@ PrefabInstance:
         type: 3}
       propertyPath: _editorLayerName
       value: Layer_6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319138183982319072, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28e4ce2115e895249b03d093e232dbe9, type: 3}
@@ -19227,7 +19647,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 747773677}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -19281,7 +19701,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 751282945}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -19335,7 +19755,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 751977701}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -19885,7 +20305,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 767485320}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -19939,7 +20359,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 769346508}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -20005,7 +20425,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 771681304}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -20197,6 +20617,11 @@ PrefabInstance:
         type: 3}
       propertyPath: _editorLayerName
       value: Layer_6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319138183982319072, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28e4ce2115e895249b03d093e232dbe9, type: 3}
@@ -20837,7 +21262,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 796417666}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -21030,6 +21455,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7319138183982319072, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28e4ce2115e895249b03d093e232dbe9, type: 3}
 --- !u!1 &801468322
@@ -21082,7 +21512,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 801468322}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -21465,7 +21895,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 844525098}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -21513,7 +21943,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 845436001}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -21699,6 +22129,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7319138183982319072, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28e4ce2115e895249b03d093e232dbe9, type: 3}
 --- !u!1 &887650148 stripped
@@ -21721,7 +22156,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 887650148}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -21775,7 +22210,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 889628714}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -22151,7 +22586,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 891879196}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -22426,7 +22861,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 894386013}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -22500,7 +22935,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 894603440}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -23695,7 +24130,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 941058642}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -24283,6 +24718,11 @@ PrefabInstance:
     - target: {fileID: 6207005947276562095, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319138183982319072, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -24913,7 +25353,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 995365978}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -25099,6 +25539,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7319138183982319072, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28e4ce2115e895249b03d093e232dbe9, type: 3}
 --- !u!1001 &1011798903
@@ -25116,27 +25561,57 @@ PrefabInstance:
     - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Intensity
-      value: 5.5
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShapeRadius
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: useVolumetric
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowNearPlane
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_AlwaysDrawDynamicShadows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowResolution.m_Override
+      value: 128
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Range
-      value: 0.060000002
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Color.a
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Color.b
-      value: 0.6666667
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.8392157
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
@@ -25146,7 +25621,27 @@ PrefabInstance:
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Intensity
-      value: 0.43767607
+      value: 0.87535214
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowRadius
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ColorTemperature
+      value: 3750
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2649789736405374282, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
@@ -25252,6 +25747,11 @@ PrefabInstance:
         type: 3}
       propertyPath: _editorLayerName
       value: Layer_6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319138183982319072, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28e4ce2115e895249b03d093e232dbe9, type: 3}
@@ -25405,7 +25905,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1013729184}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -25894,7 +26394,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1046367783}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -25977,9 +26477,29 @@ PrefabInstance:
       propertyPath: Force
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 2116278473410869078, guid: 08c478855fd13264fb749945b21cee53,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2855870074223701206, guid: 08c478855fd13264fb749945b21cee53,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4142735908450955278, guid: 08c478855fd13264fb749945b21cee53,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5797145664016368702, guid: 08c478855fd13264fb749945b21cee53,
         type: 3}
       propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8557801633222693968, guid: 08c478855fd13264fb749945b21cee53,
+        type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8936098568141045026, guid: 08c478855fd13264fb749945b21cee53,
@@ -26086,7 +26606,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1048573049}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -26134,7 +26654,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1056682540}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -26507,12 +27027,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4136650794404506442, guid: 7cf52ed5661e9534bb7cad22f47d8787,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4383087123875046049, guid: 7cf52ed5661e9534bb7cad22f47d8787,
         type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 7334367471910364408, guid: 38152c1ec4c4e8a44b8157e956324b68,
         type: 3}
+    - target: {fileID: 5370090281390761149, guid: 7cf52ed5661e9534bb7cad22f47d8787,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7010089884742197248, guid: 7cf52ed5661e9534bb7cad22f47d8787,
         type: 3}
       propertyPath: _type
@@ -26595,7 +27125,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1076588933}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -26980,7 +27510,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1113746809}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -27111,6 +27641,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4136650794404506442, guid: 7cf52ed5661e9534bb7cad22f47d8787,
         type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136650794404506442, guid: 7cf52ed5661e9534bb7cad22f47d8787,
+        type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: -7774582030997954192, guid: 09799d88a65c0e044a6b6c89e594b7b2,
@@ -27121,6 +27656,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -6494749829001942111, guid: 09799d88a65c0e044a6b6c89e594b7b2,
         type: 3}
+    - target: {fileID: 5370090281390761149, guid: 7cf52ed5661e9534bb7cad22f47d8787,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7010089884742197248, guid: 7cf52ed5661e9534bb7cad22f47d8787,
         type: 3}
       propertyPath: _type
@@ -28109,7 +28649,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1156885760}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -28389,6 +28929,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1260714541426936682, guid: c557a5a88939f4f48ab972272730aa0b,
         type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1260714541426936682, guid: c557a5a88939f4f48ab972272730aa0b,
+        type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: eaf43d139fd87d14fb928fc95a599d96, type: 2}
@@ -28639,7 +29184,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1178578498}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -29184,7 +29729,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1193202801}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -29232,7 +29777,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1198994211}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -29286,7 +29831,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1199601842}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -29334,7 +29879,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1200813201}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -29764,7 +30309,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1213684186}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -30037,6 +30582,11 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 8df13907750e3c5439ba984f38da11a9,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8df13907750e3c5439ba984f38da11a9,
+        type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 8df13907750e3c5439ba984f38da11a9,
@@ -30449,7 +30999,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1242316240}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -30505,7 +31055,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1244184455}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -30577,7 +31127,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1261270048}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -30631,7 +31181,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1264419460}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -30855,7 +31405,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1275911657}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -31489,7 +32039,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1310658127}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -32382,7 +32932,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1370149361}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -32675,7 +33225,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1373144696}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -32840,7 +33390,12 @@ PrefabInstance:
     - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Intensity
-      value: 0.5
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShapeRadius
+      value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
@@ -32850,7 +33405,7 @@ PrefabInstance:
     - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_ShadowNearPlane
-      value: 0.036
+      value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
@@ -32859,28 +33414,33 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
+      propertyPath: m_AlwaysDrawDynamicShadows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
       propertyPath: m_ShadowResolution.m_Override
-      value: 64
+      value: 128
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Range
-      value: 0.2
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Color.a
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Color.b
-      value: 0.56078434
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.77254903
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
@@ -32890,12 +33450,22 @@ PrefabInstance:
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Intensity
-      value: 0.039788734
+      value: 0.87535214
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowRadius
+      value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Shadows.m_Type
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ColorTemperature
+      value: 3750
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
@@ -33016,6 +33586,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 126
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319138183982319072, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28e4ce2115e895249b03d093e232dbe9, type: 3}
@@ -33488,7 +34063,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1408940155}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -33631,7 +34206,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1430871547}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -34163,27 +34738,57 @@ PrefabInstance:
     - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Intensity
-      value: 5.5
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShapeRadius
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: useVolumetric
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowNearPlane
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_AlwaysDrawDynamicShadows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowResolution.m_Override
+      value: 128
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Range
-      value: 0.060000002
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Color.a
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Color.b
-      value: 0.6666667
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.8392157
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
@@ -34193,7 +34798,27 @@ PrefabInstance:
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Intensity
-      value: 0.43767607
+      value: 0.87535214
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowRadius
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ColorTemperature
+      value: 3750
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2649789736405374282, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
@@ -34299,6 +34924,11 @@ PrefabInstance:
         type: 3}
       propertyPath: _editorLayerName
       value: Layer_6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319138183982319072, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28e4ce2115e895249b03d093e232dbe9, type: 3}
@@ -34545,6 +35175,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 8df13907750e3c5439ba984f38da11a9,
         type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8df13907750e3c5439ba984f38da11a9,
+        type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ae21eb60093a1fa4a95f9c6805106a13, type: 2}
@@ -34711,7 +35346,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1475164096}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -34760,27 +35395,57 @@ PrefabInstance:
     - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Intensity
-      value: 5.5
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShapeRadius
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: useVolumetric
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowNearPlane
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_AlwaysDrawDynamicShadows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowResolution.m_Override
+      value: 128
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Range
-      value: 0.060000002
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Color.a
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Color.b
-      value: 0.6666667
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.8392157
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
@@ -34790,7 +35455,27 @@ PrefabInstance:
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Intensity
-      value: 0.43767607
+      value: 0.87535214
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowRadius
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ColorTemperature
+      value: 3750
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2649789736405374282, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
@@ -34896,6 +35581,11 @@ PrefabInstance:
         type: 3}
       propertyPath: _editorLayerName
       value: Layer_6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319138183982319072, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28e4ce2115e895249b03d093e232dbe9, type: 3}
@@ -35148,7 +35838,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1488539867}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -35856,7 +36546,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1522870580}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -36316,7 +37006,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1532588406}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -36497,6 +37187,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7319138183982319072, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28e4ce2115e895249b03d093e232dbe9, type: 3}
 --- !u!1 &1541314181
@@ -36549,27 +37244,57 @@ PrefabInstance:
     - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Intensity
-      value: 0.5
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShapeRadius
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: useVolumetric
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowNearPlane
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_AlwaysDrawDynamicShadows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowResolution.m_Override
+      value: 128
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Range
-      value: 0.060000002
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Color.a
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Color.b
-      value: 0.56078434
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.77254903
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
@@ -36579,7 +37304,27 @@ PrefabInstance:
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Intensity
-      value: 0.039788734
+      value: 0.87535214
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowRadius
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ColorTemperature
+      value: 3750
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2649789736405374282, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
@@ -36685,6 +37430,11 @@ PrefabInstance:
         type: 3}
       propertyPath: _editorLayerName
       value: Layer_6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319138183982319072, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28e4ce2115e895249b03d093e232dbe9, type: 3}
@@ -36839,6 +37589,11 @@ PrefabInstance:
         type: 3}
       propertyPath: _editorLayerName
       value: Layer_6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319138183982319072, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28e4ce2115e895249b03d093e232dbe9, type: 3}
@@ -37238,7 +37993,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1553264524}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -37292,7 +38047,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1553402579}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -37840,7 +38595,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1574732984}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -37888,7 +38643,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1577629620}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -37936,7 +38691,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1583788626}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -38144,7 +38899,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1587649556}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -38333,7 +39088,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1609371821}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -38473,6 +39228,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 8df13907750e3c5439ba984f38da11a9,
         type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8df13907750e3c5439ba984f38da11a9,
+        type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 76442033e2d19c449b12bed91902822f, type: 2}
@@ -38521,7 +39281,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1623467208}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -39406,7 +40166,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1625546271}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -39472,7 +40232,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1633249442}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -40794,7 +41554,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1675315023}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -41007,27 +41767,57 @@ PrefabInstance:
     - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Intensity
-      value: 5.5
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShapeRadius
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: useVolumetric
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowNearPlane
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_AlwaysDrawDynamicShadows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowResolution.m_Override
+      value: 128
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Range
-      value: 0.060000002
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Color.a
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Color.b
-      value: 0.6666667
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.8392157
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
@@ -41037,7 +41827,27 @@ PrefabInstance:
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Intensity
-      value: 0.43767607
+      value: 0.87535214
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowRadius
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ColorTemperature
+      value: 3750
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2649789736405374282, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
@@ -41144,6 +41954,11 @@ PrefabInstance:
       propertyPath: _editorLayerName
       value: Layer_6
       objectReference: {fileID: 0}
+    - target: {fileID: 7319138183982319072, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28e4ce2115e895249b03d093e232dbe9, type: 3}
 --- !u!1001 &1677310990
@@ -41161,27 +41976,57 @@ PrefabInstance:
     - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Intensity
-      value: 5.5
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShapeRadius
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: useVolumetric
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowNearPlane
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_AlwaysDrawDynamicShadows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowResolution.m_Override
+      value: 128
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Range
-      value: 0.060000002
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Color.a
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Color.b
-      value: 0.6666667
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.8392157
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
@@ -41191,7 +42036,27 @@ PrefabInstance:
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Intensity
-      value: 0.43767607
+      value: 0.87535214
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowRadius
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ColorTemperature
+      value: 3750
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2649789736405374282, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
@@ -41297,6 +42162,11 @@ PrefabInstance:
         type: 3}
       propertyPath: _editorLayerName
       value: Layer_6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319138183982319072, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28e4ce2115e895249b03d093e232dbe9, type: 3}
@@ -41707,27 +42577,57 @@ PrefabInstance:
     - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Intensity
-      value: 5.5
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShapeRadius
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: useVolumetric
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowNearPlane
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_AlwaysDrawDynamicShadows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowResolution.m_Override
+      value: 128
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Range
-      value: 0.060000002
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Color.a
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Color.b
-      value: 0.6666667
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.8392157
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
@@ -41737,7 +42637,27 @@ PrefabInstance:
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Intensity
-      value: 0.43767607
+      value: 0.87535214
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowRadius
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ColorTemperature
+      value: 3750
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2649789736405374282, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
@@ -41844,6 +42764,16 @@ PrefabInstance:
       propertyPath: _editorLayerName
       value: Layer_6
       objectReference: {fileID: 0}
+    - target: {fileID: 7031967719973800860, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319138183982319072, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28e4ce2115e895249b03d093e232dbe9, type: 3}
 --- !u!1 &1704040507 stripped
@@ -41866,7 +42796,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1704040507}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -42072,7 +43002,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1710067645}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -42606,7 +43536,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1721786557}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -43055,27 +43985,57 @@ PrefabInstance:
     - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Intensity
-      value: 0.5
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShapeRadius
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: useVolumetric
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowNearPlane
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_AlwaysDrawDynamicShadows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowResolution.m_Override
+      value: 128
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Range
-      value: 0.060000002
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Color.a
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Color.b
-      value: 0.6666667
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.8392157
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
@@ -43085,7 +44045,27 @@ PrefabInstance:
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Intensity
-      value: 0.039788734
+      value: 0.87535214
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowRadius
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ColorTemperature
+      value: 3750
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2649789736405374282, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
@@ -43191,6 +44171,11 @@ PrefabInstance:
         type: 3}
       propertyPath: _editorLayerName
       value: Layer_6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319138183982319072, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28e4ce2115e895249b03d093e232dbe9, type: 3}
@@ -43586,27 +44571,57 @@ PrefabInstance:
     - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Intensity
-      value: 5.5
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShapeRadius
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: useVolumetric
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowNearPlane
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_AlwaysDrawDynamicShadows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowResolution.m_Override
+      value: 128
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Range
-      value: 0.060000002
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Color.a
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Color.b
-      value: 0.6666667
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.8392157
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
@@ -43616,7 +44631,27 @@ PrefabInstance:
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Intensity
-      value: 0.43767607
+      value: 0.87535214
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowRadius
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ColorTemperature
+      value: 3750
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2649789736405374282, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
@@ -43722,6 +44757,11 @@ PrefabInstance:
         type: 3}
       propertyPath: _editorLayerName
       value: Layer_6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319138183982319072, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28e4ce2115e895249b03d093e232dbe9, type: 3}
@@ -44150,7 +45190,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1750334501}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -44199,27 +45239,57 @@ PrefabInstance:
     - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Intensity
-      value: 5.5
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShapeRadius
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: useVolumetric
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowNearPlane
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_AlwaysDrawDynamicShadows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowResolution.m_Override
+      value: 128
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Range
-      value: 0.060000002
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Color.a
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Color.b
-      value: 0.6666667
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.8392157
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
@@ -44229,7 +45299,27 @@ PrefabInstance:
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Intensity
-      value: 0.43767607
+      value: 0.87535214
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowRadius
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ColorTemperature
+      value: 3750
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2649789736405374282, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
@@ -44336,6 +45426,11 @@ PrefabInstance:
       propertyPath: _editorLayerName
       value: Layer_6
       objectReference: {fileID: 0}
+    - target: {fileID: 7319138183982319072, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28e4ce2115e895249b03d093e232dbe9, type: 3}
 --- !u!1001 &1789442743
@@ -44428,6 +45523,16 @@ PrefabInstance:
     - target: {fileID: 3855377737585284880, guid: ab505ffe198619d4e92efe3c83cf5014,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4384660224724416774, guid: ab505ffe198619d4e92efe3c83cf5014,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5708101893523781361, guid: ab505ffe198619d4e92efe3c83cf5014,
+        type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7232690939938509163, guid: ab505ffe198619d4e92efe3c83cf5014,
@@ -44709,7 +45814,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1794827633}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -53910,27 +55015,57 @@ PrefabInstance:
     - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Intensity
-      value: 5.5
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShapeRadius
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: useVolumetric
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowNearPlane
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_AlwaysDrawDynamicShadows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowResolution.m_Override
+      value: 128
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Range
-      value: 0.060000002
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Color.a
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Color.b
-      value: 0.6666667
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.8392157
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
@@ -53940,7 +55075,27 @@ PrefabInstance:
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Intensity
-      value: 0.43767607
+      value: 0.87535214
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowRadius
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ColorTemperature
+      value: 3750
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2649789736405374282, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
@@ -54047,6 +55202,11 @@ PrefabInstance:
       propertyPath: _editorLayerName
       value: Layer_6
       objectReference: {fileID: 0}
+    - target: {fileID: 7319138183982319072, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28e4ce2115e895249b03d093e232dbe9, type: 3}
 --- !u!1 &1879121685 stripped
@@ -54063,7 +55223,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1879121685}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -54117,7 +55277,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1881322960}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -54171,7 +55331,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1891604183}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -54360,7 +55520,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1894056966}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -54869,7 +56029,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1905890035}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -55117,7 +56277,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1907221981}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -55407,7 +56567,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1917811889}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -56565,27 +57725,57 @@ PrefabInstance:
     - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Intensity
-      value: 3
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShapeRadius
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: useVolumetric
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowNearPlane
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowUpdateMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_AlwaysDrawDynamicShadows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 680429306115422845, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowResolution.m_Override
+      value: 128
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Range
-      value: 0.060000002
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Color.a
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Color.b
-      value: 0.6666667
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.8392157
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
@@ -56595,7 +57785,27 @@ PrefabInstance:
     - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
       propertyPath: m_Intensity
-      value: 0.23873241
+      value: 0.87535214
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ShadowRadius
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_ColorTemperature
+      value: 3750
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799189321192003275, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_UseViewFrustumForShadowCasterCull
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2649789736405374282, guid: 28e4ce2115e895249b03d093e232dbe9,
         type: 3}
@@ -56701,6 +57911,11 @@ PrefabInstance:
         type: 3}
       propertyPath: _editorLayerName
       value: Layer_6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319138183982319072, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28e4ce2115e895249b03d093e232dbe9, type: 3}
@@ -58135,6 +59350,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4513026180575958664, guid: a17884b251e9bd6498dcefd35ff27a1f,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5570755057970256255, guid: a17884b251e9bd6498dcefd35ff27a1f,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7361030575157133029, guid: a17884b251e9bd6498dcefd35ff27a1f,
         type: 3}
       propertyPath: Elasticity
@@ -58729,7 +59954,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1999872107}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -58855,12 +60080,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4136650794404506442, guid: 7cf52ed5661e9534bb7cad22f47d8787,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4383087123875046049, guid: 7cf52ed5661e9534bb7cad22f47d8787,
         type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: -1149916500728149969, guid: 0f33ef2082aba1a4fb919657f0706faa,
         type: 3}
+    - target: {fileID: 5370090281390761149, guid: 7cf52ed5661e9534bb7cad22f47d8787,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7010089884742197248, guid: 7cf52ed5661e9534bb7cad22f47d8787,
         type: 3}
       propertyPath: _type
@@ -59152,7 +60387,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2017976907}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -59200,7 +60435,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2024118636}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -59254,7 +60489,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2030736694}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -59448,7 +60683,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2045576373}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -59808,6 +61043,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7319138183982319072, guid: 28e4ce2115e895249b03d093e232dbe9,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28e4ce2115e895249b03d093e232dbe9, type: 3}
 --- !u!1 &2049614162 stripped
@@ -59878,7 +61118,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2057345145}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -60522,7 +61762,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2082145818}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -60825,7 +62065,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2087873936}
   m_Enabled: 0
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -60866,6 +62106,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 948581972}
     m_Modifications:
+    - target: {fileID: 1260714541426936682, guid: c557a5a88939f4f48ab972272730aa0b,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1260714541426936682, guid: c557a5a88939f4f48ab972272730aa0b,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -61603,6 +62848,16 @@ PrefabInstance:
     - target: {fileID: 3855377737585284880, guid: ab505ffe198619d4e92efe3c83cf5014,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4384660224724416774, guid: ab505ffe198619d4e92efe3c83cf5014,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5708101893523781361, guid: ab505ffe198619d4e92efe3c83cf5014,
+        type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7232690939938509163, guid: ab505ffe198619d4e92efe3c83cf5014,
@@ -64119,7 +65374,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8164078558374154391}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -64287,7 +65542,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8088989817766337901}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
